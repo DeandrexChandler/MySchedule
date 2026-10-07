@@ -53,7 +53,8 @@ A "Backgrounds" option in Settings. First idea: **city mode**, a soft-toned, blu
 - Applies to every **actionable** item (tasks, reminders, due-date lines, start-by lines, to-do blocks). **Informational** items like classes just show on the schedule. They're never marked complete and never "missed" (D27).
 - In the stack, every item is **compressed to the same size** (D28).
 - The stack **can grow to take over the whole screen** (D28).
-- Notifications **speed up** the longer something is ignored (D29). The worst cases can use an **alarm that rings through silent** (D30).
+- Notifications **speed up** the longer something is ignored, up to **3 a day**, and **pause overnight** (D29, D32, D33).
+- Items I **set an alarm on** ring through silent mode (D30, D31).
 
 ### Background
 

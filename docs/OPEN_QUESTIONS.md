@@ -4,12 +4,11 @@ Answer these in my own words, before each segment starts. When one is answered, 
 
 ## Segment 0: Scope and setup
 
-*Answered 2026-10-06/07. See DECISIONS D8 through D30.*
+*Answered 2026-10-06/07. See DECISIONS D8 through D34.*
 
-1. What counts as a "worst case" that earns an alarm through silent: a hard deadline being missed, something ignored for a certain time, the stack reaching a certain size, something else?
-2. Should escalating notifications keep going while I'm asleep, or pause overnight and pick back up in the morning?
-3. How fast is "fastest"? What's the most often I'd want to be pinged about missed stuff?
-4. Anything in the docs that's wrong, missing, or not how I'd say it?
+1. What hours count as "overnight" for pausing notifications? Same every day, or different on weekends?
+2. When should the 3 daily missed-item pings land: spread across the day, tied to my schedule (e.g. between classes), or set times I pick?
+3. Anything in the docs that's wrong, missing, or not how I'd say it?
 
 ## Segment 1: Calendar
 
@@ -20,7 +19,6 @@ Answer these in my own words, before each segment starts. When one is answered, 
 5. What views do I picture: 1-day, 2-day, 3-day, week, month? Which one do I live in?
 6. Do I want my existing Apple Calendar events to show up here, or does this replace it?
 7. How should blocks be colored: by class, by type, by something else?
-8. How does an item become **informational** vs. **actionable**? Do I pick when creating it, or is there a default per kind (classes informational, tasks actionable) that I can override?
 
 ## Segment 2: Inbox and tasks
 

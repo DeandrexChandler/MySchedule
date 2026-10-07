@@ -34,3 +34,7 @@ A running log. Newest at the bottom. Each entry: what was decided, why, and when
 | D28 | 2026-10-07 | In the missed stack, everything is **compressed to one consistent size**. The stack **can take over the whole screen** | A full screen is a clear sign I'm doing something wrong |
 | D29 | 2026-10-07 | Missed-item notifications **get more frequent the longer they're ignored** | Escalation is the point; feasible with local notifications (see ARCHITECTURE.md) |
 | D30 | 2026-10-07 | **Alarm-style alerts** that ring through silent mode and Focus are allowed for the worst cases | Hard to ignore is the goal |
+| D31 | 2026-10-07 | **Alarm-level alerts are opt-in per item.** Only items I set an alarm on get the ring-through-silent alarm | I decide what's critical |
+| D32 | 2026-10-07 | Missed-item escalation **pauses overnight** and resumes in the morning | Don't wreck sleep |
+| D33 | 2026-10-07 | Escalation **caps at 3 notifications a day** | Frequent enough to be hard to ignore, not spam |
+| D34 | 2026-10-07 | Informational vs. actionable: **each kind has a default** (classes informational, tasks actionable), **changeable per item** | Sensible default, full control |

@@ -9,11 +9,16 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
+        VStack(spacing: 16) {
+            Image(systemName: "calendar.badge.checkmark")
+                .font(.system(size: 72))
                 .foregroundStyle(.tint)
-            Text("Hello, world!")
+            Text("MySchedule")
+                .font(.largeTitle.bold())
+            Text("It's working! 🎉")
+                .font(.title2)
+            Text(Date.now, format: .dateTime.weekday(.wide).month().day().year())
+                .foregroundStyle(.secondary)
         }
         .padding()
     }

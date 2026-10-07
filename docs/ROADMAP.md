@@ -24,8 +24,8 @@ The order isn't final. Moving segments around is fine.
 
 - [x] Vision, features, roadmap, architecture, UI, tooling docs
 - [x] Open questions written down
-- [ ] Answer the remaining Segment 0 questions (sky theme details, deadline escalation)
-- [ ] Install Ponytail plugin
+- [ ] Answer the remaining Segment 0 questions (see OPEN_QUESTIONS.md)
+- [x] Install Ponytail plugin
 - [x] `CLAUDE.md`, `scripts/build.sh`, `scripts/run.sh`, `.claude/settings.json` permissions
 - [x] `.gitignore` for Xcode; stopped tracking `xcuserdata`
 - [x] Xcode target set to iPhone only
@@ -34,7 +34,8 @@ The order isn't final. Moving segments around is fine.
 - [ ] Mood board from Dribbble / Mobbin, then pick the "pop"
 - [ ] Folder structure and data model skeleton
 - [ ] Design basics: colors, fonts, spacing, app icon direction
-- [ ] Settings screen with dark (default) / light mode
+- [ ] Sky-scene background (ground + time-of-day sky gradient)
+- [ ] Settings screen (city, preferences)
 
 ## Branching
 

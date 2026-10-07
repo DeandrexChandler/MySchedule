@@ -7,8 +7,11 @@ Every feature I've described so far. **Seg** is the segment it's planned for (se
 | Feature | Seg | Offline | Notes |
 |---|---|---|---|
 | **Settings** screen | 0 | ✅ | Home for preferences as they come up |
-| **Dark mode by default**, light mode switch | 0 | ✅ | Probably also a "match system" setting? Open |
+| **Dark mode by default**, light and match-system options | 0 | ✅ | |
+| **Sky theme**: pastel colors that follow the time of day | 0–1 | ✅ | Sunrise/sunset can be computed on-device, no internet |
+| Weather-aware sky colors (grey-blue when cloudy or rainy) | 9 | 🌐 | Needs internet for weather; falls back to time-of-day offline |
 | Feels like Apple Reminders | all | ✅ | Familiar list feel, native controls |
+| Small, useful details most apps skip (the "pop") | all | ✅ | Collected as I think of them |
 
 ## Calendar
 
@@ -27,6 +30,7 @@ Every feature I've described so far. **Seg** is the segment it's planned for (se
 | Quick-capture **inbox** button in the bottom-middle | 2 | ✅ | |
 | To-dos (with or without a date or time) | 2 | ✅ | |
 | Reminders with notifications | 2 | ✅ | Local notifications need no internet |
+| **Deadline escalation**: in-my-face "do it or move it" as deadlines near or pass | 2 | ✅ | See UI.md, "Deadlines that are hard to ignore" |
 | Moving an inbox item onto the schedule | 2 | ✅ | |
 
 ## Planning loop

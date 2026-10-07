@@ -4,8 +4,42 @@
 
 - **Feel:** like Apple's native **Reminders** app: familiar, list-based, native controls.
 - **The difference:** a much better way to see **time** and **hard deadlines**. Not just "the reminder turns red when it's late".
-- **Style:** basic, **with a pop**. Clean base, something distinctive on top (what "pop" means is still open: color, motion, haptics, typography, illustrations…).
-- **Theme:** **dark by default**, with a light mode switch in Settings.
+- **Style:** basic, **with a pop**. "Pop" means **small, useful details most apps skip**: conveniences that keep my attention. Not flashy visuals.
+- **Theme:** **dark by default**, with light and match-system options in Settings.
+- **Platform:** iPhone only.
+
+## Sky palette (D18, D19)
+
+Colors follow the sun and the weather. **Pastel, calm, low opacity.** They set the mood and never compete with content.
+
+| Time / condition | Feel | Color direction |
+|---|---|---|
+| Sunrise / morning | Waking up | Soft orange → pale yellow |
+| Midday | Clear, awake | Soft green |
+| Sunset / evening | Winding down | Peach → dusty pink |
+| Night | Calm | Muted blue → navy |
+| Cloudy / rainy | Overcast | Grey → grey-blue |
+
+Ideas to explore (not decided):
+- The app's background or accent gradually shifts through the day
+- The day timeline itself is tinted by time: morning hours warm, evening hours pink, night hours navy
+- Weather softly overrides the palette (sunny afternoon green → rainy afternoon grey-blue)
+- Exact hex values get picked during design basics in Segment 0, tested in both dark and light
+
+## Deadlines that are hard to ignore (D17)
+
+Reminders' approach (red text plus one buzz) is easy to ignore. The goal: as a deadline nears or passes, the app **forces a decision: do it, or move it.**
+
+What iOS makes possible (building blocks to choose from, nothing decided):
+
+| Building block | What it does |
+|---|---|
+| **Actionable notifications** | Buttons right on the notification: "Done", "Move to tomorrow", "Snooze 1h" |
+| **Time-sensitive notifications** | Break through Focus modes and stay on the lock screen longer |
+| **AlarmKit** (iOS 26) | Full alarm-style alert that rings even on silent or in Focus. The most in-your-face option |
+| **Live Activities** | A live countdown on the lock screen (iPhone 11 has no Dynamic Island, but the lock screen works) |
+| **In-app triage screen** | When I open the app with overdue items, they're front and center until I decide on each |
+| **Visual escalation on the timeline** | The deadline line gets thicker, pulses, or the block before it changes as time runs out |
 - **Inspiration sources:** Dribbble and Mobbin (see below).
 - The **inbox / set reminder button** sits in the **bottom middle** of the tab bar.
 - **Calendar** possibly on the right.

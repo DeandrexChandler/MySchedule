@@ -9,7 +9,7 @@ This is the technical approach as currently understood. Anything marked **open**
 | UI | SwiftUI |
 | Language | Swift (project is set to Swift 5 mode) |
 | Minimum OS | iOS / iPadOS / macOS / visionOS 26.5 |
-| Platforms targeted | iPhone, iPad, Mac, Vision Pro (template default). **iPhone is the focus**; whether to keep the others is open |
+| Platforms targeted | **iPhone only** (D15) |
 | Bundle ID | `com.MySchedule` |
 
 ## Offline-first
@@ -35,6 +35,20 @@ This is the technical approach as currently understood. Anything marked **open**
 - iOS 26 runs on iPhone 11 / SE (2nd gen) and newer, so the current minimum covers my phone and nearly every iPhone still in use.
 - "Smooth on most iPhones" means **testing on the iPhone 11 itself**, not just a fast simulator: timeline scrolling, animations, launch time.
 - iOS 26's Liquid Glass effects are heavier on older chips. The iPhone 11 is the performance benchmark.
+
+## Sky theme (D18, D19)
+
+| Input | Source | Needs internet? |
+|---|---|---|
+| Time of day | Device clock | No |
+| Sunrise / sunset times | Calculated on-device from location (standard solar formula) | No. Location from GPS, or a city set once |
+| Weather (cloudy / rain) | WeatherKit (included with the developer program) | **Yes.** Cache the last forecast; fall back to time-of-day colors when offline |
+
+The theme is a set of color tokens that interpolate between sky phases. It's applied on top of dark or light mode, never replacing contrast or readability.
+
+## Deadline escalation (D17)
+
+Planned building blocks: actionable notifications ("Done" / "Move" / "Snooze"), time-sensitive interruption level (needs the Time Sensitive Notifications capability), optionally **AlarmKit** (iOS 26) for the hardest cases, Live Activities for countdowns, and an in-app triage screen for overdue items. All of these are local and work offline. The escalation steps themselves are an open question.
 
 ## Data model (first sketch, will change)
 

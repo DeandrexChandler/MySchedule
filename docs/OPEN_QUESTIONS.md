@@ -4,15 +4,15 @@ Answer these in my own words, before each segment starts. When one is answered, 
 
 ## Segment 0: Scope and setup
 
-*Answered 2026-10-06: developer fee, iPhone 11, Reminders feel, dark default, Ponytail. See DECISIONS D8 through D14.*
+*Answered 2026-10-06. See DECISIONS D8 through D19.*
 
-1. Besides the iPhone, will I ever use this on iPad or Mac? Does my data need to be the same everywhere?
-2. What does "a pop" mean to me? What have I seen in an app that made me go "oh, that's nice"?
-3. When I picture a hard deadline coming up, what would actually make me *feel* it, in a way red text doesn't?
-4. Is there any color I'm drawn to, or one I can't stand?
-5. Besides dark/light, should there be a "match my phone's setting" option?
-6. Do I have a Mobbin account, or should mood-boarding start with Dribbble only?
-7. Which of the other tooling in TOOLING.md (CLAUDE.md, build scripts, permissions, .gitignore) do I want set up now?
+1. **Sky theme vs. dark/light:** when the app changes with the time of day, does the sky color tint the dark or light theme, or replace it? Is "sky mode" its own setting next to dark / light / system?
+2. How strong should the shift between times of day be: a subtle wash in the background, an accent color, a gradient at the top?
+3. **Weather:** live weather needs internet. When offline, is falling back to plain time-of-day colors (using the last known weather) fine?
+4. Should the app use my location (for real sunrise/sunset times and weather), or should I set my city once?
+5. **Deadlines, in my face:** what should happen as a deadline gets closer, and once it's missed? Walk through the escalation I picture, from "heads up" to "you can't ignore this".
+6. Should anything ever block me from using the rest of the app until I decide "do it" or "move it"?
+7. Is an alarm-style alert (rings even on silent / Focus) OK for the worst cases, or too much?
 8. Anything in the docs that's wrong, missing, or not how I'd say it?
 
 ## Segment 1: Calendar
@@ -24,6 +24,7 @@ Answer these in my own words, before each segment starts. When one is answered, 
 5. What views do I picture: 1-day, 2-day, 3-day, week, month? Which one do I live in?
 6. Do I want my existing Apple Calendar events to show up here, or does this replace it?
 7. How should blocks be colored: by class, by type, by something else?
+8. Should the sky colors also show *on* the timeline itself, e.g. the day's background shifting from sunrise at the top to night at the bottom?
 
 ## Segment 2: Inbox and tasks
 

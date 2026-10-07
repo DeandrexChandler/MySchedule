@@ -33,10 +33,14 @@ Sky colors by time and weather:
 | Cloudy / rainy | Overcast | Grey → grey-blue |
 
 Notes:
-- Midday green from the earlier palette moved to the **ground**; the midday sky becomes soft daylight blue. *(Assumption, confirm.)*
+- The sky **reflects the real day** (midday = soft daylight blue). Green belongs to the **ground**, which **dims at night** along with the sky.
+- Offline: last known weather, then plain time-of-day colors.
 - Colors **blend gradually** between phases. No sudden jumps.
 - Text and cards need to stay readable on every sky, from pale sunrise to navy night.
 - Exact colors get picked during design basics in Segment 0.
+
+### More backgrounds (later, D25)
+A "Backgrounds" option in Settings. First idea: **city mode**, a soft-toned, blurred skyline in front of the same time-of-day sky. Unique enough to pop, never distracting. Not part of v1.
 
 ## Deadlines that are hard to ignore (D17, D22, D23)
 
@@ -46,6 +50,10 @@ Notes:
 - The more I ignore, the more it **stacks up** and takes space from the schedule.
 - It re-notifies **at least every 24 hours**, maybe more often.
 - Only two ways out: **mark complete** or **move the date**.
+- Applies to every **actionable** item (tasks, reminders, due-date lines, start-by lines, to-do blocks). **Informational** items like classes just show on the schedule. They're never marked complete and never "missed" (D27).
+- In the stack, every item is **compressed to the same size** (D28).
+- The stack **can grow to take over the whole screen** (D28).
+- Notifications **speed up** the longer something is ignored (D29). The worst cases can use an **alarm that rings through silent** (D30).
 
 ### Background
 

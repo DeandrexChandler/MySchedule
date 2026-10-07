@@ -18,7 +18,7 @@ The order isn't final. Moving segments around is fine.
 | 6 | **Gaps and filler tasks** | `feature/filler-tasks` | App spots free time and suggests realistic filler (rule-based) |
 | 7 | **AI assistant** | `feature/ai-assistant` | Personal AI layer on top of my data |
 | 8 | **Extras** | `feature/quote-of-day`, `feature/subscriptions`, `feature/gym-log` | Each one shipped independently |
-| 9 | **Polish** | various | Widgets, Shortcuts, sync, etc. Only what I still want by then |
+| 9 | **Polish** | various | Widgets, Shortcuts, weather, more backgrounds (city mode), etc. Only what I still want by then |
 
 ## Segment 0 checklist
 

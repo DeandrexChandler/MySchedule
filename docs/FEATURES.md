@@ -8,7 +8,8 @@ Every feature I've described so far. **Seg** is the segment it's planned for (se
 |---|---|---|---|
 | **Settings** screen | 0 | ✅ | City, notification timing, and other preferences as they come up |
 | **Sky scene background**: ground (green) at the bottom, sky gradient at the top that follows the time of day | 0–1 | ✅ | The only theme; no dark/light modes. Sunrise/sunset computed on-device from my city |
-| Weather-aware sky colors (grey-blue when cloudy or rainy) | 9 | 🌐 | Needs internet for weather; falls back to time-of-day offline |
+| Weather-aware sky colors (grey-blue when cloudy or rainy) | 9 | 🌐 | Needs internet for weather; falls back to last known, then time-of-day |
+| More background options in Settings, starting with **city mode** (soft blurred skyline) | 9 | ✅ | |
 | Feels like Apple Reminders | all | ✅ | Familiar list feel, native controls |
 | Small, useful details most apps skip (the "pop") | all | ✅ | Collected as I think of them |
 
@@ -29,8 +30,10 @@ Every feature I've described so far. **Seg** is the segment it's planned for (se
 | Quick-capture **inbox** button in the bottom-middle | 2 | ✅ | |
 | To-dos (with or without a date or time) | 2 | ✅ | |
 | Reminders with notifications | 2 | ✅ | Local notifications need no internet |
-| **Missed-item stack**: missed items pin to the top of the schedule, overlap it, and pile up until completed or moved | 2 | ✅ | See UI.md, "Deadlines that are hard to ignore" |
-| Repeat notifications for missed items (at least every 24h) | 2 | ✅ | |
+| **Informational vs. actionable** items (classes just show; to-dos can be missed) | 1–2 | ✅ | D27 |
+| **Missed-item stack**: missed actionable items pin to the top of the schedule, all the same size, overlap it, and pile up (up to the whole screen) until completed or moved | 2 | ✅ | See UI.md, "Deadlines that are hard to ignore" |
+| Escalating repeat notifications for missed items | 2 | ✅ | Faster the longer it's ignored |
+| Alarm-style alert (rings through silent) for the worst cases | 2 | ✅ | AlarmKit, iOS 26 |
 | Moving an inbox item onto the schedule | 2 | ✅ | |
 
 ## Planning loop

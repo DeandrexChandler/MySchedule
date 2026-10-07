@@ -50,6 +50,13 @@ The background is one view: a sky gradient on top blending into green ground at 
 
 Decided (D22, D23): missed items pin to the top of the schedule screen as a growing stack until completed or rescheduled, and re-notify at least every 24h. In SwiftUI the stack is an overlay pinned above the scrolling timeline. Repeating notifications count against the 64-pending limit, so many missed items may need to share one notification.
 
+**Escalating reminders (D29)** work with plain local notifications:
+1. When something becomes missed, schedule a **series of one-time notifications** with shrinking gaps (gaps to be tuned, e.g. 24h, 12h, 6h, 3h, 1h).
+2. The series ends in a **repeating** notification at the fastest rate, so it never stops even if I never open the app.
+3. Every time the app opens or an item changes, **cancel and rebuild** the schedule. One combined "N things missed" series covers all missed items, which keeps it far under the 64 limit.
+4. Completing or moving the last missed item cancels everything.
+5. The worst cases (to be defined) can add an **AlarmKit** alarm, which rings through silent mode and Focus (D30). It needs a one-time permission prompt.
+
 Other building blocks: actionable notifications ("Done" / "Move" / "Snooze"), time-sensitive interruption level (needs the Time Sensitive Notifications capability), optionally **AlarmKit** (iOS 26) for the hardest cases, Live Activities for countdowns, and an in-app triage screen for overdue items. All of these are local and work offline. The escalation steps themselves are an open question.
 
 ## Data model (first sketch, will change)

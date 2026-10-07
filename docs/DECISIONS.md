@@ -27,3 +27,10 @@ A running log. Newest at the bottom. Each entry: what was decided, why, and when
 | D21 | 2026-10-07 | **City is set once** (no ongoing location tracking). Sunrise/sunset come from the city's coordinates | Simpler, no location permission, works offline |
 | D22 | 2026-10-07 | **Missed items pin to the top of the schedule screen.** They stay there while scrolling, overlap the schedule, and **stack up**, taking more space the more I ignore. Only two ways out: **mark complete** or **move the date** | Makes ignoring things physically get in the way |
 | D23 | 2026-10-07 | Missed items **re-notify at least every 24 hours** (possibly more often) until dealt with | Never silently forgotten |
+| D24 | 2026-10-07 | Sky reflects the real day: midday is soft daylight blue. The **ground dims at night** with the sky | Background should mirror what it looks like outside |
+| D25 | 2026-10-07 | **More background options later**, in Settings. First idea: a **city mode** with soft, blurred buildings | Unique enough to pop, not distracting; not needed for v1 |
+| D26 | 2026-10-07 | Offline weather fallback = last known weather, then plain time-of-day colors | I'm rarely offline long enough for it to matter |
+| D27 | 2026-10-07 | Two kinds of items: **informational** ("you have this", e.g. classes: never marked complete, never "missed") and **actionable** ("I put this here to get done"). **Every actionable item** can be missed: tasks, reminders, due-date lines, start-by lines, to-do blocks | Classes just show up; things I meant to do get held accountable |
+| D28 | 2026-10-07 | In the missed stack, everything is **compressed to one consistent size**. The stack **can take over the whole screen** | A full screen is a clear sign I'm doing something wrong |
+| D29 | 2026-10-07 | Missed-item notifications **get more frequent the longer they're ignored** | Escalation is the point; feasible with local notifications (see ARCHITECTURE.md) |
+| D30 | 2026-10-07 | **Alarm-style alerts** that ring through silent mode and Focus are allowed for the worst cases | Hard to ignore is the goal |

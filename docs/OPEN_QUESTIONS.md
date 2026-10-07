@@ -4,16 +4,12 @@ Answer these in my own words, before each segment starts. When one is answered, 
 
 ## Segment 0: Scope and setup
 
-*Answered 2026-10-06/07. See DECISIONS D8 through D23.*
+*Answered 2026-10-06/07. See DECISIONS D8 through D30.*
 
-1. **Weather:** live weather needs internet. When offline, is falling back to plain time-of-day colors (using the last known weather) fine?
-2. Is an alarm-style alert (rings even on silent / Focus) OK for the worst cases, or too much?
-3. Does the ground stay the same green all day, or does it dim at night too?
-4. What should the midday sky look like now that green belongs to the ground?
-5. **Missed items:** does "missed" apply to everything (tasks, reminders, deadlines, start-by lines), or only some? What about a missed calendar block, like a class I skipped?
-6. How fast should repeat notifications come for something missed: every 24h, a few times a day, faster the longer it's ignored?
-7. If the stack gets really big, should it ever take over the whole screen, or is there a point where it stops growing?
-8. Anything in the docs that's wrong, missing, or not how I'd say it?
+1. What counts as a "worst case" that earns an alarm through silent: a hard deadline being missed, something ignored for a certain time, the stack reaching a certain size, something else?
+2. Should escalating notifications keep going while I'm asleep, or pause overnight and pick back up in the morning?
+3. How fast is "fastest"? What's the most often I'd want to be pinged about missed stuff?
+4. Anything in the docs that's wrong, missing, or not how I'd say it?
 
 ## Segment 1: Calendar
 
@@ -24,6 +20,7 @@ Answer these in my own words, before each segment starts. When one is answered, 
 5. What views do I picture: 1-day, 2-day, 3-day, week, month? Which one do I live in?
 6. Do I want my existing Apple Calendar events to show up here, or does this replace it?
 7. How should blocks be colored: by class, by type, by something else?
+8. How does an item become **informational** vs. **actionable**? Do I pick when creating it, or is there a default per kind (classes informational, tasks actionable) that I can override?
 
 ## Segment 2: Inbox and tasks
 

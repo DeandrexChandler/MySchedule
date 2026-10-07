@@ -9,7 +9,7 @@ This is the technical approach as currently understood. Anything marked **open**
 | UI | SwiftUI |
 | Language | Swift (project is set to Swift 5 mode) |
 | Minimum OS | iOS / iPadOS / macOS / visionOS 26.5 |
-| Platforms targeted | iPhone, iPad, Mac, Vision Pro (template default; **open:** which ones I actually care about) |
+| Platforms targeted | iPhone, iPad, Mac, Vision Pro (template default). **iPhone is the focus**; whether to keep the others is open |
 | Bundle ID | `com.MySchedule` |
 
 ## Offline-first
@@ -27,12 +27,14 @@ This is the technical approach as currently understood. Anything marked **open**
 
 ### How the app gets onto my phone (important for "available anytime")
 
-| Setup | What happens |
-|---|---|
-| Free Apple ID in Xcode | App installs on my phone but **expires after 7 days**; I'd have to re-run it from Xcode weekly. No iCloud sync. |
-| Paid Apple Developer Program ($99/yr) | App lasts a year per install, TestFlight is available, iCloud sync works. |
+**Decided (D8): paid Apple Developer Program.** The app installs on my phone for a year at a time, and TestFlight and iCloud sync are available. (With a free Apple ID it would expire every 7 days.)
 
-This is a real tradeoff with my "no subscription" rule (it's a developer fee, not an app subscription), so it's an **open question**.
+### Device support (D9)
+
+- Main device: **iPhone 11** (A13 chip, iOS 26 supported).
+- iOS 26 runs on iPhone 11 / SE (2nd gen) and newer, so the current minimum covers my phone and nearly every iPhone still in use.
+- "Smooth on most iPhones" means **testing on the iPhone 11 itself**, not just a fast simulator: timeline scrolling, animations, launch time.
+- iOS 26's Liquid Glass effects are heavier on older chips. The iPhone 11 is the performance benchmark.
 
 ## Data model (first sketch, will change)
 
@@ -84,9 +86,11 @@ What the AI *does* is an open question. *Where it runs* has real tradeoffs:
 
 | Option | Offline? | Cost | Notes |
 |---|---|---|---|
-| **Apple on-device model** (Foundation Models framework, iOS 26) | ✅ Works offline | Free | Needs an Apple Intelligence–capable iPhone (15 Pro or newer) with Apple Intelligence on. Smaller model: good at summarizing and structuring, weaker at deep reasoning |
-| **Cloud model with my own API key** (e.g. Claude) | ❌ Needs internet | Pay per use, no subscription | Much more capable; my data gets sent to the provider when I use it |
-| **Both** | Partial | — | On-device by default, cloud for heavier requests |
+| **Apple on-device model** (Foundation Models framework, iOS 26) | ✅ Works offline | Free | **Not available on my iPhone 11 (D14).** Needs iPhone 15 Pro or newer with Apple Intelligence. Could light up automatically if I upgrade |
+| **Cloud model with my own API key** (e.g. Claude) | ❌ Needs internet | Pay per use, no subscription | The realistic option on iPhone 11. Much more capable; my data goes to the provider when I use it |
+| **Both** | Partial | — | Cloud now; on-device as a bonus on newer phones |
+
+**Still open:** which provider, how the API key is stored (Keychain, never in the repo), and what the AI actually does.
 
 Whatever runs, the AI reads my local data (schedule, trackers, history). It never becomes the source of truth.
 

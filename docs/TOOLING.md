@@ -27,6 +27,18 @@ Keep it **short** (under ~100 lines). It's loaded every time, so every line cost
 ### 4. `.gitignore`
 Stop tracking `xcuserdata/`, `DerivedData/`, `.DS_Store`. This keeps diffs (and what Claude reads in reviews) clean.
 
+## Ponytail (decided, D13)
+
+[DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) is a Claude Code plugin (MIT) that makes the agent justify every line. It reaches for "skip it" or "use what already exists" before writing new code. The authors report about 54% less code and about 20% fewer tokens. That suits this project: native SwiftUI components first, no unnecessary libraries.
+
+Install it from inside an interactive Claude Code session in this repo. These are two separate prompts:
+```
+/plugin marketplace add DietrichGebert/ponytail
+```
+```
+/plugin install ponytail@ponytail
+```
+
 ## Plugins and MCP servers to consider
 
 Each MCP server or plugin adds tool descriptions to context. Only add what earns its place.

@@ -2,13 +2,21 @@
 
 Every feature I've described so far. **Seg** is the segment it's planned for (see [ROADMAP.md](ROADMAP.md)). **Offline** confirms it must work without internet.
 
+## App basics
+
+| Feature | Seg | Offline | Notes |
+|---|---|---|---|
+| **Settings** screen | 0 | ✅ | Home for preferences as they come up |
+| **Dark mode by default**, light mode switch | 0 | ✅ | Probably also a "match system" setting? Open |
+| Feels like Apple Reminders | all | ✅ | Familiar list feel, native controls |
+
 ## Calendar
 
 | Feature | Seg | Offline | Notes |
 |---|---|---|---|
 | Time **blocks** (classes, gym, BJJ, anything with start + end) | 1 | ✅ | |
 | **Recurring** blocks (class schedule for a semester) | 1 | ✅ | Semester start/end dates? See open questions |
-| **Due-date lines**: a line at a moment, not a block | 1 | ✅ | e.g. "Essay due 11:59 PM" |
+| **Due-date lines**: a line at a moment, not a block | 1 | ✅ | e.g. "Essay due 11:59 PM". Should show urgency far better than Reminders turning red |
 | **Start-by lines**: "should start around here" with no fixed duration | 1 | ✅ | |
 | Day / 2-day / week views | 1 | ✅ | Reminders might live in a calendar view instead of a separate tab |
 
@@ -58,9 +66,9 @@ Every feature I've described so far. **Seg** is the segment it's planned for (se
 
 | Feature | Seg | Offline | Notes |
 |---|---|---|---|
-| Personalized productivity coaching | 7 | ⚠️ | On-device AI might work offline; see ARCHITECTURE.md |
-| Smarter filler suggestions | 7 | ⚠️ | |
-| Natural-language scheduling ("gym after class tomorrow") | 7? | ⚠️ | Some of this might be doable without AI |
+| Personalized productivity coaching | 7 | 🌐 | Needs internet on iPhone 11 (no on-device AI) |
+| Smarter filler suggestions | 7 | 🌐 | |
+| Natural-language scheduling ("gym after class tomorrow") | 7? | ✅ / 🌐 | Simple phrases can be parsed without AI; AI for messy ones |
 
 ## Extras
 

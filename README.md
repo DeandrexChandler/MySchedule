@@ -7,10 +7,12 @@ A personal planner for one person (me). It combines a **calendar**, **to-dos**, 
 ## Non-negotiables
 
 1. **Works fully offline.** The only feature allowed to depend on internet is AI.
-2. **No accounts, no sign-up, no subscription.** It opens and works.
+2. **No accounts, no sign-up.** It opens and works. If it ever ships publicly, users never pay a subscription.
 3. **Built for me.** No onboarding for strangers, no growth features.
 
 ## What it will do (short version)
+
+It should feel like Apple's **Reminders** app, but show **time and hard deadlines** far better than turning a reminder red. Dark by default, with a light mode.
 
 - Class schedule as **blocks**, plus **lines** for due dates and "start around here" markers
 - A quick-capture **inbox** in the bottom-middle of the tab bar

@@ -24,12 +24,16 @@ The order isn't final. Moving segments around is fine.
 
 - [x] Vision, features, roadmap, architecture, UI, tooling docs
 - [x] Open questions written down
-- [ ] Answer the Segment 0 questions
+- [ ] Answer the Segment 0 questions (most answered 2026-10-06)
+- [ ] Install Ponytail plugin
 - [ ] `CLAUDE.md` and Claude Code settings (token optimization)
 - [ ] `.gitignore` for Xcode (user data and DerivedData are currently tracked)
-- [ ] Decide on the device setup (how the app gets onto my phone and stays there)
+- [x] Device setup: paid Apple Developer Program, iPhone 11 as main device
+- [ ] Enroll in Apple Developer Program, run app on the iPhone 11
+- [ ] Mood board from Dribbble / Mobbin, then pick the "pop"
 - [ ] Folder structure and data model skeleton
 - [ ] Design basics: colors, fonts, spacing, app icon direction
+- [ ] Settings screen with dark (default) / light mode
 
 ## Branching
 

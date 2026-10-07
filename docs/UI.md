@@ -2,11 +2,31 @@
 
 ## What I know so far
 
+- **Feel:** like Apple's native **Reminders** app: familiar, list-based, native controls.
+- **The difference:** a much better way to see **time** and **hard deadlines**. Not just "the reminder turns red when it's late".
+- **Style:** basic, **with a pop**. Clean base, something distinctive on top (what "pop" means is still open: color, motion, haptics, typography, illustrations…).
+- **Theme:** **dark by default**, with a light mode switch in Settings.
+- **Inspiration sources:** Dribbble and Mobbin (see below).
 - The **inbox / set reminder button** sits in the **bottom middle** of the tab bar.
 - **Calendar** possibly on the right.
 - **Reminders** might not need their own tab. They might live inside the calendar as a different view (1-day or 2-day).
 - Classes show as **blocks**. Due dates and soft start times show as **lines** on the timeline.
 - Everything else about layout is still open.
+
+## Dribbble and Mobbin
+
+They're useful in different ways:
+
+| Site | What it is | Good for | Watch out for |
+|---|---|---|---|
+| **Mobbin** | Screenshots of **real, shipped apps**, searchable by screen type and flow | Realistic patterns: how real apps do timelines, quick-add sheets, streak screens, settings | Needs a (free) account; the free plan limits browsing |
+| **Dribbble** | Designers' **concept shots** | The "pop": color, type, playful details | Many shots are pretty but impractical or un-native; take ideas, not layouts |
+
+Search terms worth trying:
+- Mobbin: "Reminders", "Structured", "Things", "Streaks", "calendar day view", "timeline", "add task sheet", "habit tracker", "settings"
+- Dribbble: "dark mode calendar app", "daily planner iOS", "timeline schedule app", "habit tracker dark", "deadline countdown UI", "todo app minimal"
+
+What to note for each screenshot I like: **what exactly** I like about it (the colors? how time is shown? the button?).
 
 ## Inspiration to look at
 

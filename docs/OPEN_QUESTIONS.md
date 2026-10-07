@@ -4,13 +4,16 @@ Answer these in my own words, before each segment starts. When one is answered, 
 
 ## Segment 0: Scope and setup
 
-1. Which devices will I actually use this on: just my iPhone, or also iPad / Mac? Does my data need to be the same on all of them?
-2. How do I feel about the $99/yr Apple Developer fee vs. reinstalling from Xcode every 7 days? (See ARCHITECTURE.md → "How the app gets onto my phone")
-3. Which iPhone do I have? (This determines whether on-device AI is possible.)
-4. What should the app *feel* like? Describe it in a few words, or name apps whose vibe I like.
-5. Any colors, themes or a dark-mode preference I already know I want?
-6. Which tooling from TOOLING.md do I want set up now, and is there anything I've heard of and want to try?
-7. Anything in the docs that's wrong, missing, or not how I'd say it?
+*Answered 2026-10-06: developer fee, iPhone 11, Reminders feel, dark default, Ponytail. See DECISIONS D8 through D14.*
+
+1. Besides the iPhone, will I ever use this on iPad or Mac? Does my data need to be the same everywhere?
+2. What does "a pop" mean to me? What have I seen in an app that made me go "oh, that's nice"?
+3. When I picture a hard deadline coming up, what would actually make me *feel* it, in a way red text doesn't?
+4. Is there any color I'm drawn to, or one I can't stand?
+5. Besides dark/light, should there be a "match my phone's setting" option?
+6. Do I have a Mobbin account, or should mood-boarding start with Dribbble only?
+7. Which of the other tooling in TOOLING.md (CLAUDE.md, build scripts, permissions, .gitignore) do I want set up now?
+8. Anything in the docs that's wrong, missing, or not how I'd say it?
 
 ## Segment 1: Calendar
 

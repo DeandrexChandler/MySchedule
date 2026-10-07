@@ -38,3 +38,11 @@ A running log. Newest at the bottom. Each entry: what was decided, why, and when
 | D32 | 2026-10-07 | Missed-item escalation **pauses overnight** and resumes in the morning | Don't wreck sleep |
 | D33 | 2026-10-07 | Escalation **caps at 3 notifications a day** | Frequent enough to be hard to ignore, not spam |
 | D34 | 2026-10-07 | Informational vs. actionable: **each kind has a default** (classes informational, tasks actionable), **changeable per item** | Sensible default, full control |
+| D35 | 2026-10-07 | Quiet hours (no missed-item pings): **1 AM – 7 AM, every day** | Sleep |
+| D36 | 2026-10-07 | Missed-item pings land in **free gaps** in my schedule: gaps **longer than the missed item's duration**, or **over 1 hour** if it has no duration. If there aren't 3 such gaps, pings fall back to **11 AM, 5 PM, 10 PM** | Ping me when I can actually act on it |
+| D37 | 2026-10-07 | Classes are **weekly recurring blocks until the semester end date**. Entered once, never per day. **Import from an .ics file** with a review/confirm step before anything is added | 5 classes a week; manual re-entry is a non-starter |
+| D38 | 2026-10-07 | Recurring series have a **preset end date**. After it, they stop showing going forward, but **past occurrences stay** so I can look back at old schedules | History matters |
+| D39 | 2026-10-07 | **No due-date lines on the schedule.** Instead, assignments get a **"start this" item**, with the **deadline in its details** | Starting is the actionable part; keeps the schedule clean |
+| D40 | 2026-10-07 | Views: **1-day (primary)**, **3-day (yesterday / today / tomorrow)**, **week**, **month**. Each zoom level **compresses and simplifies** items | Less clutter, sleeker as I zoom out |
+| D41 | 2026-10-07 | This app **replaces Apple Calendar**. Later extras: **connections to other apps** (e.g. 7shifts work schedule) and **birthdays from Contacts** | One place for everything. Extras aren't needed for v1 |
+| D42 | 2026-10-07 | Block colors are **my choice**, rendered **slightly heavier than the background** so they stand out. The app may **learn my color habits and suggest** colors | Personal, readable, low effort |

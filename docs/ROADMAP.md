@@ -10,7 +10,7 @@ The order isn't final. Moving segments around is fine.
 | # | Segment | Branch | Done when… |
 |---|---|---|---|
 | 0 | **Scope and setup** | `docs/project-scope`, `chore/foundation` | Docs agreed, tooling set up, folder structure and data layer skeleton in place |
-| 1 | **Calendar core** | `feature/calendar` | I can enter my class schedule as recurring blocks, add due-date and start-by lines, and view day / multi-day |
+| 1 | **Calendar core** | `feature/calendar` | Classes imported from .ics (or entered once) as weekly blocks until semester end; "start this" items; 1-day / 3-day / week / month views; custom colors on the sky background |
 | 2 | **Inbox and tasks** | `feature/inbox-tasks` | Center button captures anything in seconds; to-dos and reminders notify me offline |
 | 3 | **Planning loop** | `feature/planning-loop` | Night nudge, "did I plan?" detection, morning follow-up all work |
 | 4 | **Trackers** | `feature/trackers` | Days since, streaks, and weekly counts for gym / BJJ / protein / Bible |

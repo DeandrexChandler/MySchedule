@@ -4,21 +4,21 @@ Answer these in my own words, before each segment starts. When one is answered, 
 
 ## Segment 0: Scope and setup
 
-*Answered 2026-10-06/07. See DECISIONS D8 through D34.*
+*Answered 2026-10-06/07. See DECISIONS D8 through D42.*
 
-1. What hours count as "overnight" for pausing notifications? Same every day, or different on weekends?
-2. When should the 3 daily missed-item pings land: spread across the day, tied to my schedule (e.g. between classes), or set times I pick?
-3. Anything in the docs that's wrong, missing, or not how I'd say it?
+1. Anything in the docs that's wrong, missing, or not how I'd say it?
 
 ## Segment 1: Calendar
 
-1. How do my classes repeat (days, times), and how do I want to enter a semester: one class at a time, or something faster?
-2. What happens at the end of a semester: do classes just stop, get archived, something else?
-3. What's the difference, in my head, between a **due-date line** and a **start-by line**? How should each look?
-4. Can a line have a time but no date, or a date but no time?
-5. What views do I picture: 1-day, 2-day, 3-day, week, month? Which one do I live in?
-6. Do I want my existing Apple Calendar events to show up here, or does this replace it?
-7. How should blocks be colored: by class, by type, by something else?
+*Mostly answered 2026-10-07 (D37 through D42).*
+
+1. Where does my class .ics come from (school portal, another app)? Does it already include the semester end date?
+2. Should the app know an assignment's **deadline as a real date** (so it could warn me as it gets close), or is a note in the details enough?
+3. When is a "start this" item done: once I've started, or once the assignment is finished?
+4. If there are only 1 or 2 good gaps in a day, should the missed-item pings use those plus fallback times, or switch fully to 11 AM / 5 PM / 10 PM?
+5. How do I want to pick colors: per class, per category (school, gym, BJJ, work…), or per item?
+6. Is the 3-day view always yesterday / today / tomorrow, or can I swipe it to other days?
+7. What do I want to see for each day in month view?
 
 ## Segment 2: Inbox and tasks
 

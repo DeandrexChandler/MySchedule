@@ -39,6 +39,17 @@ Notes:
 - Text and cards need to stay readable on every sky, from pale sunrise to navy night.
 - Exact colors get picked during design basics in Segment 0.
 
+### Blocks on the sky (D42)
+Blocks use colors I pick, drawn **slightly heavier (more opaque) than the background** so they stand out against any sky. Later, the app can suggest colors based on how I usually color things.
+
+### Zoom levels (D40)
+| View | Shows |
+|---|---|
+| **1-day** (main) | Full detail: blocks, "start this" lines, times |
+| **3-day** | Yesterday / today / tomorrow, slightly compressed |
+| **Week** | Simplified blocks, titles shortened |
+| **Month** | Most compressed: markers or dots per day |
+
 ### More backgrounds (later, D25)
 A "Backgrounds" option in Settings. First idea: **city mode**, a soft-toned, blurred skyline in front of the same time-of-day sky. Unique enough to pop, never distracting. Not part of v1.
 

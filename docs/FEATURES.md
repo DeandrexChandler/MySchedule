@@ -18,10 +18,12 @@ Every feature I've described so far. **Seg** is the segment it's planned for (se
 | Feature | Seg | Offline | Notes |
 |---|---|---|---|
 | Time **blocks** (classes, gym, BJJ, anything with start + end) | 1 | ✅ | |
-| **Recurring** blocks (class schedule for a semester) | 1 | ✅ | Semester start/end dates? See open questions |
-| **Due-date lines**: a line at a moment, not a block | 1 | ✅ | e.g. "Essay due 11:59 PM". Should show urgency far better than Reminders turning red |
-| **Start-by lines**: "should start around here" with no fixed duration | 1 | ✅ | |
-| Day / 2-day / week views | 1 | ✅ | Reminders might live in a calendar view instead of a separate tab |
+| **Weekly recurring** blocks with an **end date** (classes until semester ends) | 1 | ✅ | Enter once, never per day (D37, D38) |
+| **Import classes from .ics**, with a review/confirm screen before adding | 1 | ✅ | D37 |
+| **Past schedules stay viewable** after a series ends | 1 | ✅ | D38 |
+| **"Start this" items**: a line for when to start an assignment, deadline in the details | 1 | ✅ | Replaces due-date lines (D39) |
+| **Views**: 1-day (main), 3-day (yesterday/today/tomorrow), week, month; more compressed at each level | 1 | ✅ | D40 |
+| **Custom block colors**, a bit heavier than the background | 1 | ✅ | D42 |
 
 ## Inbox, tasks and reminders
 
@@ -60,6 +62,7 @@ Every feature I've described so far. **Seg** is the segment it's planned for (se
 |---|---|---|---|
 | Predict **duration** when I type a known activity ("gym") | 5 | ✅ | Learned from my history |
 | Predict **time of day** per weekday | 5 | ✅ | |
+| Suggest **block colors** from my habits | 5 | ✅ | D42 |
 | Get better as I correct it | 5 | ✅ | |
 
 ## Free time and filler tasks
@@ -93,4 +96,5 @@ Possible additions I haven't committed to:
 - Siri / Shortcuts ("Hey Siri, add gym tomorrow")
 - Apple Watch
 - iCloud sync between iPhone, iPad and Mac (the project targets all three)
-- Importing class schedules from Apple Calendar or school calendars
+- **Connections to other apps**, e.g. a 7shifts work schedule via its calendar link if it offers one (D41)
+- **Birthdays from Contacts** (works offline; Contacts is on the phone) (D41)

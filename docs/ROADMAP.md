@@ -24,10 +24,11 @@ The order isn't final. Moving segments around is fine.
 
 - [x] Vision, features, roadmap, architecture, UI, tooling docs
 - [x] Open questions written down
-- [ ] Answer the Segment 0 questions (most answered 2026-10-06)
+- [ ] Answer the remaining Segment 0 questions (sky theme details, deadline escalation)
 - [ ] Install Ponytail plugin
-- [ ] `CLAUDE.md` and Claude Code settings (token optimization)
-- [ ] `.gitignore` for Xcode (user data and DerivedData are currently tracked)
+- [x] `CLAUDE.md`, `scripts/build.sh`, `scripts/run.sh`, `.claude/settings.json` permissions
+- [x] `.gitignore` for Xcode; stopped tracking `xcuserdata`
+- [x] Xcode target set to iPhone only
 - [x] Device setup: paid Apple Developer Program, iPhone 11 as main device
 - [ ] Enroll in Apple Developer Program, run app on the iPhone 11
 - [ ] Mood board from Dribbble / Mobbin, then pick the "pop"

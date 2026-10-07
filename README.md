@@ -12,7 +12,7 @@ A personal planner for one person (me). It combines a **calendar**, **to-dos**, 
 
 ## What it will do (short version)
 
-It should feel like Apple's **Reminders** app, but show **time and hard deadlines** far better than turning a reminder red. Dark by default, with a light mode.
+It should feel like Apple's **Reminders** app, but show **time and hard deadlines** far better than turning a reminder red. The background is a calm sky-and-ground scene that changes with the time of day and weather.
 
 - Class schedule as **blocks**, plus **lines** for due dates and "start around here" markers
 - A quick-capture **inbox** in the bottom-middle of the tab bar

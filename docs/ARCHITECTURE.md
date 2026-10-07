@@ -41,14 +41,16 @@ This is the technical approach as currently understood. Anything marked **open**
 | Input | Source | Needs internet? |
 |---|---|---|
 | Time of day | Device clock | No |
-| Sunrise / sunset times | Calculated on-device from location (standard solar formula) | No. Location from GPS, or a city set once |
+| Sunrise / sunset times | Calculated on-device from the city's coordinates (standard solar formula) | No. City set once in Settings (D21), no location permission |
 | Weather (cloudy / rain) | WeatherKit (included with the developer program) | **Yes.** Cache the last forecast; fall back to time-of-day colors when offline |
 
-The theme is a set of color tokens that interpolate between sky phases. It's applied on top of dark or light mode, never replacing contrast or readability.
+The background is one view: a sky gradient on top blending into green ground at the bottom (D20). Sky colors interpolate between phases as time passes. There are no dark/light modes, so text and controls must pick contrast against the current sky. Keep it cheap on iPhone 11: plain gradients redrawn every few minutes, not a constantly animating scene.
 
 ## Deadline escalation (D17)
 
-Planned building blocks: actionable notifications ("Done" / "Move" / "Snooze"), time-sensitive interruption level (needs the Time Sensitive Notifications capability), optionally **AlarmKit** (iOS 26) for the hardest cases, Live Activities for countdowns, and an in-app triage screen for overdue items. All of these are local and work offline. The escalation steps themselves are an open question.
+Decided (D22, D23): missed items pin to the top of the schedule screen as a growing stack until completed or rescheduled, and re-notify at least every 24h. In SwiftUI the stack is an overlay pinned above the scrolling timeline. Repeating notifications count against the 64-pending limit, so many missed items may need to share one notification.
+
+Other building blocks: actionable notifications ("Done" / "Move" / "Snooze"), time-sensitive interruption level (needs the Time Sensitive Notifications capability), optionally **AlarmKit** (iOS 26) for the hardest cases, Live Activities for countdowns, and an in-app triage screen for overdue items. All of these are local and work offline. The escalation steps themselves are an open question.
 
 ## Data model (first sketch, will change)
 

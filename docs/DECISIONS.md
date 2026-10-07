@@ -14,7 +14,7 @@ A running log. Newest at the bottom. Each entry: what was decided, why, and when
 | D8 | 2026-10-06 | Join the paid Apple Developer Program ($99/yr) | App stays installed for a year, TestFlight, iCloud sync possible |
 | D9 | 2026-10-06 | Main device: **iPhone 11**. Should run smoothly on most iPhones | That's my phone. iOS 26 supports iPhone 11 / SE 2nd gen and newer, so the current iOS 26 minimum already covers it |
 | D10 | 2026-10-06 | Feel: like Apple's native **Reminders** app, but with a much better way to see **time** and **hard deadlines** than "the reminder turns red" | Familiar and calm; the time visualization is the thing that sets it apart |
-| D11 | 2026-10-06 | **Dark mode by default**, with a light-mode switch in a **Settings** screen | My preference |
+| D11 | 2026-10-06 | ~~Dark mode by default, with a light-mode switch~~ **Replaced by D20** | |
 | D12 | 2026-10-06 | Visual style: **basic, with a pop**. Inspiration from Dribbble and Mobbin | Clean base, something distinctive on top |
 | D13 | 2026-10-06 | Use the **Ponytail** Claude Code plugin | Less code, fewer tokens, prefers native solutions |
 | D14 | 2026-10-06 | Apple's on-device AI is **not an option on iPhone 11** (needs iPhone 15 Pro or newer). AI on my phone will need internet | Hardware limit. Fits D2: AI is the one feature allowed to need internet |
@@ -22,4 +22,8 @@ A running log. Newest at the bottom. Each entry: what was decided, why, and when
 | D16 | 2026-10-06 | "Pop" = **small, useful details most apps skip** that keep my attention. Not loud visuals | The difference is in convenience, not decoration |
 | D17 | 2026-10-06 | Hard deadlines must be **hard to ignore**: in my face, pushing me to either **do it** or **move it**, not just red text and a buzz | Red text is too easy to ignore |
 | D18 | 2026-10-06 | **Sky color palette**: sunrise orange/yellow → midday green → sunset orange/pink → night blue/navy; grey-blue when cloudy or rainy. **Pastel, calm, low opacity**; never steals the spotlight | Aesthetic without being an eyesore |
-| D19 | 2026-10-06 | The app's look can **change through the day** (and with weather). Dark / light / match-system options still exist | Example of the "pop" I want |
+| D19 | 2026-10-06 | The app's look can **change through the day** (and with weather) | Example of the "pop" I want |
+| D20 | 2026-10-07 | **No dark / light / system modes.** The only look is the **sky scene**: the background is **ground at the bottom (green)** and **sky at the top**, with a gradient between. The sky follows the time of day and weather and **shifts gradually** | One distinctive look instead of generic themes |
+| D21 | 2026-10-07 | **City is set once** (no ongoing location tracking). Sunrise/sunset come from the city's coordinates | Simpler, no location permission, works offline |
+| D22 | 2026-10-07 | **Missed items pin to the top of the schedule screen.** They stay there while scrolling, overlap the schedule, and **stack up**, taking more space the more I ignore. Only two ways out: **mark complete** or **move the date** | Makes ignoring things physically get in the way |
+| D23 | 2026-10-07 | Missed items **re-notify at least every 24 hours** (possibly more often) until dealt with | Never silently forgotten |

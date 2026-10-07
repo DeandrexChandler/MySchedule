@@ -5,28 +5,49 @@
 - **Feel:** like Apple's native **Reminders** app: familiar, list-based, native controls.
 - **The difference:** a much better way to see **time** and **hard deadlines**. Not just "the reminder turns red when it's late".
 - **Style:** basic, **with a pop**. "Pop" means **small, useful details most apps skip**: conveniences that keep my attention. Not flashy visuals.
-- **Theme:** **dark by default**, with light and match-system options in Settings.
+- **Look:** no dark/light modes. The background is a **sky scene**: green ground at the bottom, sky at the top, gradient between. It changes gradually with the time of day and weather.
 - **Platform:** iPhone only.
 
-## Sky palette (D18, D19)
+## Sky scene (D18, D19, D20)
 
-Colors follow the sun and the weather. **Pastel, calm, low opacity.** They set the mood and never compete with content.
+The whole app sits on one background: **ground at the bottom, sky at the top**, blended with a gradient. It's the app's only theme. Colors are **pastel, calm, low opacity**; they set the mood and never compete with content.
 
-| Time / condition | Feel | Color direction |
+```
+┌─────────────────────┐
+│   sky (time/weather)│  ← changes through the day
+│         ░░░         │
+│     gradient blend  │
+│         ▒▒▒         │
+│   ground (green)    │  ← always green-ish
+└─────────────────────┘
+```
+
+Sky colors by time and weather:
+
+| Time / condition | Feel | Sky color direction |
 |---|---|---|
 | Sunrise / morning | Waking up | Soft orange → pale yellow |
-| Midday | Clear, awake | Soft green |
+| Midday | Clear, awake | Soft daylight blue |
 | Sunset / evening | Winding down | Peach → dusty pink |
 | Night | Calm | Muted blue → navy |
 | Cloudy / rainy | Overcast | Grey → grey-blue |
 
-Ideas to explore (not decided):
-- The app's background or accent gradually shifts through the day
-- The day timeline itself is tinted by time: morning hours warm, evening hours pink, night hours navy
-- Weather softly overrides the palette (sunny afternoon green → rainy afternoon grey-blue)
-- Exact hex values get picked during design basics in Segment 0, tested in both dark and light
+Notes:
+- Midday green from the earlier palette moved to the **ground**; the midday sky becomes soft daylight blue. *(Assumption, confirm.)*
+- Colors **blend gradually** between phases. No sudden jumps.
+- Text and cards need to stay readable on every sky, from pale sunrise to navy night.
+- Exact colors get picked during design basics in Segment 0.
 
-## Deadlines that are hard to ignore (D17)
+## Deadlines that are hard to ignore (D17, D22, D23)
+
+### Decided behavior
+- Anything I **miss stays pinned to the top of the schedule screen**. It doesn't scroll away: going from an 8am–2pm view to 4pm–12am, it's still there.
+- It **overlaps** the schedule, so it's hard to ignore.
+- The more I ignore, the more it **stacks up** and takes space from the schedule.
+- It re-notifies **at least every 24 hours**, maybe more often.
+- Only two ways out: **mark complete** or **move the date**.
+
+### Background
 
 Reminders' approach (red text plus one buzz) is easy to ignore. The goal: as a deadline nears or passes, the app **forces a decision: do it, or move it.**
 
@@ -58,7 +79,7 @@ They're useful in different ways:
 
 Search terms worth trying:
 - Mobbin: "Reminders", "Structured", "Things", "Streaks", "calendar day view", "timeline", "add task sheet", "habit tracker", "settings"
-- Dribbble: "dark mode calendar app", "daily planner iOS", "timeline schedule app", "habit tracker dark", "deadline countdown UI", "todo app minimal"
+- Dribbble: "sky gradient app", "calendar app", "daily planner iOS", "timeline schedule app", "habit tracker dark", "deadline countdown UI", "todo app minimal"
 
 What to note for each screenshot I like: **what exactly** I like about it (the colors? how time is shown? the button?).
 

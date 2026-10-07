@@ -6,9 +6,8 @@ Every feature I've described so far. **Seg** is the segment it's planned for (se
 
 | Feature | Seg | Offline | Notes |
 |---|---|---|---|
-| **Settings** screen | 0 | ✅ | Home for preferences as they come up |
-| **Dark mode by default**, light and match-system options | 0 | ✅ | |
-| **Sky theme**: pastel colors that follow the time of day | 0–1 | ✅ | Sunrise/sunset can be computed on-device, no internet |
+| **Settings** screen | 0 | ✅ | City, notification timing, and other preferences as they come up |
+| **Sky scene background**: ground (green) at the bottom, sky gradient at the top that follows the time of day | 0–1 | ✅ | The only theme; no dark/light modes. Sunrise/sunset computed on-device from my city |
 | Weather-aware sky colors (grey-blue when cloudy or rainy) | 9 | 🌐 | Needs internet for weather; falls back to time-of-day offline |
 | Feels like Apple Reminders | all | ✅ | Familiar list feel, native controls |
 | Small, useful details most apps skip (the "pop") | all | ✅ | Collected as I think of them |
@@ -30,7 +29,8 @@ Every feature I've described so far. **Seg** is the segment it's planned for (se
 | Quick-capture **inbox** button in the bottom-middle | 2 | ✅ | |
 | To-dos (with or without a date or time) | 2 | ✅ | |
 | Reminders with notifications | 2 | ✅ | Local notifications need no internet |
-| **Deadline escalation**: in-my-face "do it or move it" as deadlines near or pass | 2 | ✅ | See UI.md, "Deadlines that are hard to ignore" |
+| **Missed-item stack**: missed items pin to the top of the schedule, overlap it, and pile up until completed or moved | 2 | ✅ | See UI.md, "Deadlines that are hard to ignore" |
+| Repeat notifications for missed items (at least every 24h) | 2 | ✅ | |
 | Moving an inbox item onto the schedule | 2 | ✅ | |
 
 ## Planning loop

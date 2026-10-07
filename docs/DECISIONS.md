@@ -46,3 +46,10 @@ A running log. Newest at the bottom. Each entry: what was decided, why, and when
 | D40 | 2026-10-07 | Views: **1-day (primary)**, **3-day (yesterday / today / tomorrow)**, **week**, **month**. Each zoom level **compresses and simplifies** items | Less clutter, sleeker as I zoom out |
 | D41 | 2026-10-07 | This app **replaces Apple Calendar**. Later extras: **connections to other apps** (e.g. 7shifts work schedule) and **birthdays from Contacts** | One place for everything. Extras aren't needed for v1 |
 | D42 | 2026-10-07 | Block colors are **my choice**, rendered **slightly heavier than the background** so they stand out. The app may **learn my color habits and suggest** colors | Personal, readable, low effort |
+| D43 | 2026-10-07 | My current school has **no .ics export**, so **fast manual entry** of weekly classes is the main path. .ics import stays as a secondary option | Must work with what I actually have |
+| D44 | 2026-10-07 | Assignments have a **real deadline date**. If not complete as it gets close, the app warns me. Each item can have **custom reminders** (heavier assignments get earlier or more reminders) | Some work needs more lead time |
+| D45 | 2026-10-07 | A "start this" item is just the **assignment itself** (e.g. "Assignment 2") placed at the time I plan to start. It's **done when the assignment is finished** | Simple mental model |
+| D46 | 2026-10-07 | If a day has fewer than 3 good gaps, use the gaps there are and fill the rest with the **fallback times (11 AM / 5 PM / 10 PM) furthest from those gaps** | Spread pings out |
+| D47 | 2026-10-07 | Colors default **per category**, and I can override any color on anything | Organized by default, fully custom |
+| D48 | 2026-10-07 | Every view opens on **today** (3-day = yesterday/today/tomorrow). 1-day, 3-day and week **swipe left/right**; **month scrolls up/down** | Natural navigation |
+| D49 | 2026-10-07 | Month view: **dates only, plus thin colored bars** for what's scheduled. **No words** | Overview at a glance, no clutter |

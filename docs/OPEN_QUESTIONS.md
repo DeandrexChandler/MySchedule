@@ -4,21 +4,19 @@ Answer these in my own words, before each segment starts. When one is answered, 
 
 ## Segment 0: Scope and setup
 
-*Answered 2026-10-06/07. See DECISIONS D8 through D42.*
+*Answered 2026-10-06/07. See DECISIONS D8 through D49.*
 
 1. Anything in the docs that's wrong, missing, or not how I'd say it?
 
 ## Segment 1: Calendar
 
-*Mostly answered 2026-10-07 (D37 through D42).*
+*Mostly answered 2026-10-07 (D37 through D49).*
 
-1. Where does my class .ics come from (school portal, another app)? Does it already include the semester end date?
-2. Should the app know an assignment's **deadline as a real date** (so it could warn me as it gets close), or is a note in the details enough?
-3. When is a "start this" item done: once I've started, or once the assignment is finished?
-4. If there are only 1 or 2 good gaps in a day, should the missed-item pings use those plus fallback times, or switch fully to 11 AM / 5 PM / 10 PM?
-5. How do I want to pick colors: per class, per category (school, gym, BJJ, work…), or per item?
-6. Is the 3-day view always yesterday / today / tomorrow, or can I swipe it to other days?
-7. What do I want to see for each day in month view?
+1. When does an assignment count as **missed** and join the stack: when its planned start time passes and I haven't marked it done, or only when the deadline passes?
+2. What should the default reminders for an assignment be (before I customize)? How far ahead of a deadline should the first warning come?
+3. What categories do I want to start with (school, gym, BJJ, work, personal…)?
+4. Since my school has no .ics, how is my schedule shown to me now (a web page, a PDF, an app)? Would taking a **screenshot** of it and having the app read it be useful? (iPhone can read text from images on-device, offline.)
+5. How do I want to enter a class by hand: one screen with name, days, times, location and end date all at once, or something else?
 
 ## Segment 2: Inbox and tasks
 

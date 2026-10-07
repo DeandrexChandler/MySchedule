@@ -56,7 +56,7 @@ Decided (D22, D23): missed items pin to the top of the schedule screen as a grow
 3. At 3 a day, the series continues as **daily repeating** notifications at three fixed times, so it never stops even if I never open the app.
 4. Every time the app opens or an item changes, **cancel and rebuild** the schedule. One combined "N things missed" series covers all missed items, which keeps it far under the 64 limit.
 5. Completing or moving the last missed item cancels everything.
-6. **Ping timing (D35, D36):** quiet hours are 1–7 AM. Pings go into free gaps longer than the missed item's duration (over 1 hour if it has none). If there aren't 3 such gaps that day, they fall back to 11 AM, 5 PM and 10 PM. Since the schedule is known ahead of time, the gaps get computed when the series is rebuilt. Any schedule edit triggers a rebuild.
+6. **Ping timing (D35, D36):** quiet hours are 1–7 AM. Pings go into free gaps longer than the missed item's duration (over 1 hour if it has none). If there are fewer than 3 such gaps, the gaps that exist are used and the rest are filled with whichever of 11 AM / 5 PM / 10 PM are furthest from them (D46). Since the schedule is known ahead of time, the gaps get computed when the series is rebuilt. Any schedule edit triggers a rebuild.
 7. Items **I've set an alarm on** (D31) also get an **AlarmKit** alarm, which rings through silent mode and Focus (D30). It needs a one-time permission prompt.
 
 Other building blocks: actionable notifications ("Done" / "Move" / "Snooze"), time-sensitive interruption level (needs the Time Sensitive Notifications capability), optionally **AlarmKit** (iOS 26) for the hardest cases, Live Activities for countdowns, and an in-app triage screen for overdue items. All of these are local and work offline. The escalation steps themselves are an open question.
@@ -69,7 +69,7 @@ iOS has no built-in .ics parser that hands back events without adding them to Ap
 
 | Model | Purpose |
 |---|---|
-| `Item` | Anything on the schedule or in the inbox. Has a **kind**: `block` (start + end), `startBy` (a "start this" line, deadline stored in details), `task` (no time), `reminder`. Has a **role**: `informational` or `actionable` (default per kind, overridable, D34). Optional **color** and **alarm** flag |
+| `Item` | Anything on the schedule or in the inbox. Has a **kind**: `block` (start + end), `assignment` (planned start time + real **deadline**, done when finished, D44, D45), `task` (no time), `reminder`. Optional **custom reminders** list. Belongs to a **category** (default color, D47). Has a **role**: `informational` or `actionable` (default per kind, overridable, D34). Optional **color** and **alarm** flag |
 | `Recurrence` | Repeat rules (e.g. Mon/Wed/Fri 9:00–9:50) with an **end date**. Past occurrences are kept (D38) |
 | `Tracker` | Something I track: type (`streak`, `daysSince`, `weeklyCount`), optional weekly target |
 | `TrackerEntry` | One check-in for a tracker, on a date |

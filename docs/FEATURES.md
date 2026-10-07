@@ -19,11 +19,14 @@ Every feature I've described so far. **Seg** is the segment it's planned for (se
 |---|---|---|---|
 | Time **blocks** (classes, gym, BJJ, anything with start + end) | 1 | ✅ | |
 | **Weekly recurring** blocks with an **end date** (classes until semester ends) | 1 | ✅ | Enter once, never per day (D37, D38) |
-| **Import classes from .ics**, with a review/confirm screen before adding | 1 | ✅ | D37 |
+| **Fast manual entry** of weekly classes (enter once) | 1 | ✅ | Main path; my school has no .ics (D43) |
+| Import classes from .ics, with a review/confirm screen | 1 | ✅ | Secondary path (D37, D43) |
 | **Past schedules stay viewable** after a series ends | 1 | ✅ | D38 |
-| **"Start this" items**: a line for when to start an assignment, deadline in the details | 1 | ✅ | Replaces due-date lines (D39) |
-| **Views**: 1-day (main), 3-day (yesterday/today/tomorrow), week, month; more compressed at each level | 1 | ✅ | D40 |
-| **Custom block colors**, a bit heavier than the background | 1 | ✅ | D42 |
+| **Assignments**: placed at the time I plan to start, with a **real deadline**; done when finished | 1 | ✅ | Replaces due-date lines (D39, D44, D45) |
+| Deadline warnings if an assignment isn't done as its deadline nears, plus **custom reminders per item** | 2 | ✅ | D44 |
+| **Views**: 1-day (main), 3-day, week, month; all open on today; swipe left/right (month scrolls vertically); more compressed at each level | 1 | ✅ | D40, D48 |
+| Month view: dates + thin colored bars, no words | 1 | ✅ | D49 |
+| **Colors per category**, overridable on anything; a bit heavier than the background | 1 | ✅ | D42, D47 |
 
 ## Inbox, tasks and reminders
 

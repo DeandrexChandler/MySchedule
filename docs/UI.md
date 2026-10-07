@@ -48,7 +48,9 @@ Blocks use colors I pick, drawn **slightly heavier (more opaque) than the backgr
 | **1-day** (main) | Full detail: blocks, "start this" lines, times |
 | **3-day** | Yesterday / today / tomorrow, slightly compressed |
 | **Week** | Simplified blocks, titles shortened |
-| **Month** | Most compressed: markers or dots per day |
+| **Month** | Dates and **thin colored bars** only, **no words** (D49) |
+
+All views open on **today**. 1-day, 3-day and week swipe **left/right**; month scrolls **up/down** (D48).
 
 ### More backgrounds (later, D25)
 A "Backgrounds" option in Settings. First idea: **city mode**, a soft-toned, blurred skyline in front of the same time-of-day sky. Unique enough to pop, never distracting. Not part of v1.

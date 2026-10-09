@@ -88,3 +88,5 @@ A running log. Newest at the bottom. Each entry: what was decided, why, and when
 | D82 | 2026-10-09 | **Dated = scheduled. Undated = inbox.** Undated tasks sit as to-dos; undated ideas become **suggestions** for free time | No date means I don't want to decide when yet |
 | D83 | 2026-10-09 | Notifications: **tap to open the app**; **swipe for clear or options** (mark complete, mute 1 hour, etc.) | Handle it without opening the app |
 | D84 | 2026-10-09 | **Gym log gets its own tab** in the bottom bar. Starts as **free-form notes**; progress views come later. **No BJJ notes** | Notes are mainly for lifting |
+| D85 | 2026-10-09 | **Bottom bar, left to right:** Schedule/Calendar · Notes/Gym log · **Add** (center) · Streaks/Trackers · Settings | Everything I use daily, one tap away |
+| D86 | 2026-10-09 | **Schedule screen header:** **Inbox** (undated items) button top-left, the date in the middle, **Search** and the **view switcher** top-right (view switcher right of search) | Inbox and views without a tab of their own |

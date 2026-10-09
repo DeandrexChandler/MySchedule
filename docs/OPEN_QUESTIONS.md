@@ -4,7 +4,7 @@ Answer these in my own words, before each segment starts. When one is answered, 
 
 ## Segment 0: Scope and setup
 
-*Answered 2026-10-06/09. See DECISIONS D8 through D84.*
+*Answered 2026-10-06/09. See DECISIONS D8 through D86.*
 
 1. Anything in the docs that's wrong, missing, or not how I'd say it?
 
@@ -14,9 +14,7 @@ Answer these in my own words, before each segment starts. When one is answered, 
 
 ## Segment 2: Inbox and tasks
 
-*Answered 2026-10-09 (D73 through D84).*
-
-1. **Bottom bar:** with the gym log getting its own tab, what's the full lineup, left to right? (So far: inbox/add in the middle, calendar likely on the right, gym log somewhere.)
+*Answered 2026-10-09 (D73 through D86).*
 
 ## Segment 3: Planning loop
 

@@ -153,14 +153,21 @@ These are apps worth opening and screenshotting, with the specific idea each one
 ### Platform look
 - iOS 26 **Liquid Glass**: translucent tab bars and controls. Using the native components gets this for free.
 
-## Tab bar: open questions
+## Tab bar and header (D85, D86)
 
-- What do I want to see the moment I open the app?
-- Besides inbox (middle) and calendar (right?), what else deserves a tab: trackers, AI, the planning ritual?
-- Does the middle button open a full screen, a sheet, or something quick like a text field over the current screen?
-- Where do the extras live (quotes, subscriptions, gym log)?
+```
+Schedule screen
+┌──────────────────────────────┐
+│ [Inbox]   Tue, Oct 7   [🔍][▦] │  ← inbox left · date · search, view switcher right
+│ ...missed stack, timeline... │
+│                              │
+│ Schedule  Gym log  [+]  Streaks  Settings │
+└──────────────────────────────┘
+```
 
-Technical note: the native iOS tab bar doesn't have a built-in "big center action button". A raised center button can be built as a custom tab bar. That trades the automatic Liquid Glass styling for full control. This doesn't need deciding until Segment 1–2.
+- **Bottom bar:** Schedule/Calendar · Notes/Gym log · Add (center) · Streaks/Trackers · Settings.
+- **Inbox** (undated items) lives top-left on the schedule screen. **Search** and the **view switcher** (1-day / 3-day / week / month) are top-right.
+- Technical note: the native iOS tab bar has no raised center button, so the Add button and its expanding panel (D78) need a custom bar.
 
 ## How to collect inspiration
 

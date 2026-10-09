@@ -53,3 +53,11 @@ A running log. Newest at the bottom. Each entry: what was decided, why, and when
 | D47 | 2026-10-07 | Colors default **per category**, and I can override any color on anything | Organized by default, fully custom |
 | D48 | 2026-10-07 | Every view opens on **today** (3-day = yesterday/today/tomorrow). 1-day, 3-day and week **swipe left/right**; **month scrolls up/down** | Natural navigation |
 | D49 | 2026-10-07 | Month view: **dates only, plus thin colored bars** for what's scheduled. **No words** | Overview at a glance, no clutter |
+| D50 | 2026-10-09 | Mood board: liked **1–5, 7–10, 12**. Not 6 (prefer **7**'s blocks with a now-line), not 11 (**no dot grids**) | First visual reactions |
+| D51 | 2026-10-09 | Trackers are **rectangular rows with the number on the right**. Daily streaks = **big number that grows**. Weekly counts = **a bar filling up with "3/5" on the right**. **Past weeks are kept**, never just reset (proposal in the mood board, pending my OK) | I want real history, not a counter that wipes every Monday |
+| D52 | 2026-10-09 | When something counts as **missed**: has a deadline → when the **deadline passes**; no deadline → when its **start time passes**; actionable **block** → when the **block ends** without being marked complete | Clear, predictable rules |
+| D53 | 2026-10-09 | No default deadline (each assignment's is set by hand). **Always warn 2 hours and 1 hour before a deadline** if not complete | Last-chance nudges |
+| D54 | 2026-10-09 | Categories, in build order: **School** first, then gym, BJJ, work, **personal last** | School is the most predictable; personal is messy without a frame |
+| D55 | 2026-10-09 | My classes are already in **Apple Calendar**, so the plan is a **one-time import from Apple Calendar** with a review screen (on-device, offline). Manual class entry looks roughly like Apple Calendar's new-event screen, adjusted after I try it | Don't retype what's already entered |
+| D56 | 2026-10-09 | When the current-time line is inside a block, the block shows a clear **"now, you should be doing this"** indicator | Keeps me honest in the moment |
+| D57 | 2026-10-09 | Weather has to be **obvious**: soft **grey clouds** in the sky when cloudy, **animated rain** when raining. Still **blurred** and calm | It looked too much like a normal day |

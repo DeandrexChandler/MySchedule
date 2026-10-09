@@ -8,7 +8,7 @@ Every feature I've described so far. **Seg** is the segment it's planned for (se
 |---|---|---|---|
 | **Settings** screen | 0 | ✅ | City, notification timing, and other preferences as they come up |
 | **Sky scene background**: ground (green) at the bottom, sky gradient at the top that follows the time of day | 0–1 | ✅ | The only theme; no dark/light modes. Sunrise/sunset computed on-device from my city |
-| Weather-aware sky colors (grey-blue when cloudy or rainy) | 9 | 🌐 | Needs internet for weather; falls back to last known, then time-of-day |
+| Weather in the sky: blurred grey clouds, animated rain | 9 | 🌐 | Needs internet for weather; falls back to last known, then time-of-day |
 | More background options in Settings, starting with **city mode** (soft blurred skyline) | 9 | ✅ | |
 | Feels like Apple Reminders | all | ✅ | Familiar list feel, native controls |
 | Small, useful details most apps skip (the "pop") | all | ✅ | Collected as I think of them |
@@ -19,11 +19,13 @@ Every feature I've described so far. **Seg** is the segment it's planned for (se
 |---|---|---|---|
 | Time **blocks** (classes, gym, BJJ, anything with start + end) | 1 | ✅ | |
 | **Weekly recurring** blocks with an **end date** (classes until semester ends) | 1 | ✅ | Enter once, never per day (D37, D38) |
-| **Fast manual entry** of weekly classes (enter once) | 1 | ✅ | Main path; my school has no .ics (D43) |
+| **Import classes from Apple Calendar** (one time, with review) | 1 | ✅ | They're already there (D55) |
+| **Fast manual entry** of weekly classes (enter once), modeled on Apple Calendar's new-event screen | 1 | ✅ | D43, D55 |
 | Import classes from .ics, with a review/confirm screen | 1 | ✅ | Secondary path (D37, D43) |
 | **Past schedules stay viewable** after a series ends | 1 | ✅ | D38 |
 | **Assignments**: placed at the time I plan to start, with a **real deadline**; done when finished | 1 | ✅ | Replaces due-date lines (D39, D44, D45) |
-| Deadline warnings if an assignment isn't done as its deadline nears, plus **custom reminders per item** | 2 | ✅ | D44 |
+| Deadline warnings **2h and 1h before** if not done, plus **custom reminders per item** | 2 | ✅ | D44, D53 |
+| **"Now" indicator** on the block the current-time line is in | 1 | ✅ | D56 |
 | **Views**: 1-day (main), 3-day, week, month; all open on today; swipe left/right (month scrolls vertically); more compressed at each level | 1 | ✅ | D40, D48 |
 | Month view: dates + thin colored bars, no words | 1 | ✅ | D49 |
 | **Colors per category**, overridable on anything; a bit heavier than the background | 1 | ✅ | D42, D47 |
@@ -54,9 +56,11 @@ Every feature I've described so far. **Seg** is the segment it's planned for (se
 
 | Feature | Seg | Offline | Notes |
 |---|---|---|---|
+| Tracker rows: rectangular, number on the right | 4 | ✅ | D51 |
 | **Days since** I last did X | 4 | ✅ | |
-| **Streaks**: days in a row doing X | 4 | ✅ | |
-| **Weekly counts**: gym, BJJ, protein shake, Bible reading | 4 | ✅ | Weekly targets? |
+| **Streaks**: days in a row, a big number that grows | 4 | ✅ | |
+| **Weekly counts**: a filling bar with "3/5", gym, BJJ, protein shake, Bible reading | 4 | ✅ | Weekly targets? |
+| **History kept**: past weeks stay viewable, plus weeks-in-a-row hitting target | 4 | ✅ | D51 (proposal pending) |
 | Auto-logging from completed calendar blocks | 4 | ✅ | e.g. a finished "Gym" block counts as a gym day |
 
 ## Smart defaults (no AI)

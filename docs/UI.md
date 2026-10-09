@@ -35,6 +35,7 @@ Sky colors by time and weather:
 Notes:
 - The sky **reflects the real day** (midday = soft daylight blue). Green belongs to the **ground**, which **dims at night** along with the sky.
 - Offline: last known weather, then plain time-of-day colors.
+- Weather must be **obvious but blurred**: soft grey clouds drift in the sky when it's cloudy, and rain animates when it's raining (D57). Respect Reduce Motion, and keep it light enough for the iPhone 11.
 - Colors **blend gradually** between phases. No sudden jumps.
 - Text and cards need to stay readable on every sky, from pale sunrise to navy night.
 - Exact colors get picked during design basics in Segment 0.
@@ -49,6 +50,8 @@ Blocks use colors I pick, drawn **slightly heavier (more opaque) than the backgr
 | **3-day** | Yesterday / today / tomorrow, slightly compressed |
 | **Week** | Simplified blocks, titles shortened |
 | **Month** | Dates and **thin colored bars** only, **no words** (D49) |
+
+When the current-time line passes through a block, that block gets a clear **"now"** indicator (D56).
 
 All views open on **today**. 1-day, 3-day and week swipe **left/right**; month scrolls **up/down** (D48).
 

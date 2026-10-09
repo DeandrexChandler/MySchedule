@@ -4,19 +4,16 @@ Answer these in my own words, before each segment starts. When one is answered, 
 
 ## Segment 0: Scope and setup
 
-*Answered 2026-10-06/07. See DECISIONS D8 through D49.*
+*Answered 2026-10-06/09. See DECISIONS D8 through D57.*
 
 1. Anything in the docs that's wrong, missing, or not how I'd say it?
 
 ## Segment 1: Calendar
 
-*Mostly answered 2026-10-07 (D37 through D49).*
+*Mostly answered 2026-10-07/09 (D37 through D57).*
 
-1. When does an assignment count as **missed** and join the stack: when its planned start time passes and I haven't marked it done, or only when the deadline passes?
-2. What should the default reminders for an assignment be (before I customize)? How far ahead of a deadline should the first warning come?
-3. What categories do I want to start with (school, gym, BJJ, work, personal…)?
-4. Since my school has no .ics, how is my schedule shown to me now (a web page, a PDF, an app)? Would taking a **screenshot** of it and having the app read it be useful? (iPhone can read text from images on-device, offline.)
-5. How do I want to enter a class by hand: one screen with name, days, times, location and end date all at once, or something else?
+1. For the Apple Calendar import: is it a one-time move (then Apple Calendar is retired), or should the app keep checking Apple Calendar for changes until I fully switch?
+2. Which blocks are **actionable** by default (missed if not marked complete), besides tasks and assignments? Is gym actionable? BJJ? Work shifts?
 
 ## Segment 2: Inbox and tasks
 
@@ -42,7 +39,7 @@ Answer these in my own words, before each segment starts. When one is answered, 
 4. When does my week start?
 5. Should completing a calendar block (e.g. "BJJ") check off the tracker automatically?
 6. Do rest days break a streak?
-7. How do I want to see progress: numbers, grids, rings, charts?
+7. Does the tracker proposal in the mood board (filling bar + past-weeks strip + weeks-in-a-row) work for me? What would I change?
 
 ## Segment 5: Smart defaults
 

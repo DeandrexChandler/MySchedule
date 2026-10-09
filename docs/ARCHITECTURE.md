@@ -61,6 +61,10 @@ Decided (D22, D23): missed items pin to the top of the schedule screen as a grow
 
 Other building blocks: actionable notifications ("Done" / "Move" / "Snooze"), time-sensitive interruption level (needs the Time Sensitive Notifications capability), optionally **AlarmKit** (iOS 26) for the hardest cases, Live Activities for countdowns, and an in-app triage screen for overdue items. All of these are local and work offline. The escalation steps themselves are an open question.
 
+## Importing from Apple Calendar (D55)
+
+EventKit reads Apple Calendar on the device (offline) after a one-time calendar permission prompt. Flow: pick which calendars and events → **review screen** (rename, set category and color, confirm semester end) → saved as MySchedule recurring series. Recurrence rules come across from Apple Calendar. The same access can later read the **Birthdays** calendar (D41).
+
 ## Importing .ics (D37)
 
 iOS has no built-in .ics parser that hands back events without adding them to Apple Calendar. A small parser for what class schedules use (`VEVENT`, `DTSTART`/`DTEND`, `RRULE` weekly with `UNTIL`, `SUMMARY`, `LOCATION`) is enough. Flow: pick file (Files app / share sheet) → parse → **review screen** (edit, uncheck, set colors and semester end) → confirm → saved as recurring series. Works offline. The same parser could later handle subscribed calendar links (e.g. a work schedule), which need internet only to refresh.
@@ -69,10 +73,10 @@ iOS has no built-in .ics parser that hands back events without adding them to Ap
 
 | Model | Purpose |
 |---|---|
-| `Item` | Anything on the schedule or in the inbox. Has a **kind**: `block` (start + end), `assignment` (planned start time + real **deadline**, done when finished, D44, D45), `task` (no time), `reminder`. Optional **custom reminders** list. Belongs to a **category** (default color, D47). Has a **role**: `informational` or `actionable` (default per kind, overridable, D34). Optional **color** and **alarm** flag |
+| `Item` | Anything on the schedule or in the inbox. **Missed** when (D52): deadline passes; else start time passes; for an actionable block, when it ends incomplete. Has a **kind**: `block` (start + end), `assignment` (planned start time + real **deadline**, done when finished, D44, D45), `task` (no time), `reminder`. Optional **custom reminders** list. Belongs to a **category** (default color, D47). Has a **role**: `informational` or `actionable` (default per kind, overridable, D34). Optional **color** and **alarm** flag |
 | `Recurrence` | Repeat rules (e.g. Mon/Wed/Fri 9:00–9:50) with an **end date**. Past occurrences are kept (D38) |
 | `Tracker` | Something I track: type (`streak`, `daysSince`, `weeklyCount`), optional weekly target |
-| `TrackerEntry` | One check-in for a tracker, on a date |
+| `TrackerEntry` | One check-in for a tracker, on a date. Weekly totals and history are computed from entries, so nothing is ever reset (D51) |
 | `DayPlan` | Whether a given day was "planned", and when |
 | `ActivityStats` | Learned duration and time-of-day patterns per activity name |
 | Later: `Subscription`, `GymLogEntry`, `Quote` | |

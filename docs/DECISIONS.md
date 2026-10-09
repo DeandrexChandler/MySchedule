@@ -80,6 +80,6 @@ A running log. Newest at the bottom. Each entry: what was decided, why, and when
 | D74 | 2026-10-09 | An assignment is **overdue when its scheduled work time ends** and it isn't marked complete (refines D52) | Matches how blocks work |
 | D75 | 2026-10-09 | Big projects get **multiple scheduled sessions** of the same item, entered by me | Keeps the model simple |
 | D76 | 2026-10-09 | Weekly flame milestones: **1 · 4 · 10 · 20 · 30 · 40 · 52 weeks**. The top tier is labeled **"(1 year)"** for both daily (365) and weekly (52) | Matches the daily color order |
-| D77 | 2026-10-09 | The 200/365 power-up is a **basic soft glowing aura** that pulses around the flame (a spiky Super Saiyan version was tried and dropped) | Simple and clean |
+| D77 | 2026-10-09 | The 200/365 power-up is a **flame-shaped glowing aura** that pulses around the flame; **365 adds lightning** flashing around it (a spiky Super Saiyan version was tried and dropped) | Simple, but the top tier feels special |
 | D78 | 2026-10-09 | Tapping the middle button **expands the bottom bar into a panel covering about 1/3 to 1/2 of the screen**: title first, everything else optional | Fast capture without leaving the screen |
 | D79 | 2026-10-09 | The inbox holds **reminders, tasks, and ideas** (ideas sit **undated**). **Notes are mainly gym logs**: weights and reps per session, tracked over time | That's what I actually capture |

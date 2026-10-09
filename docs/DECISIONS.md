@@ -72,3 +72,7 @@ A running log. Newest at the bottom. Each entry: what was decided, why, and when
 | D66 | 2026-10-09 | **Overdue strikes:** 1st time overdue → item shows **"Previously overdue"**. 2nd time → shows **"Will be deleted"**. 3rd time → it **deletes itself permanently** (no Recently Deleted, no history) | If I've let it slide three times, I didn't really care about it |
 | D67 | 2026-10-09 | **Grace period:** an item on its final strike isn't deleted until the **end of the day** it went overdue, so I can still mark it complete | Wiggle room |
 | D68 | 2026-10-09 | Streak flames are **animated**, **grow** as the streak grows, and **change color at milestones** (e.g. orange → blue → purple → something special) | Icons and animation are what motivate me |
+| D69 | 2026-10-09 | Overdue strikes apply to **everything actionable, assignments included**. An assignment is scheduled at the time I plan to do it, with the due date in its **notes**. Three strikes and it's gone | I deserve that consequence; it discourages skipping |
+| D70 | 2026-10-09 | Only **actually going overdue** is a strike. **Moving an item beforehand is free** | Moving early is just re-planning a realistic day |
+| D71 | 2026-10-09 | Flame milestones (days): **1 orange · 7 red-orange · 30 green · 50 blue · 100 purple · 200 black & white · 365 gold**. 200 and 365 get a **power-up aura** (Super Saiyan-style charge) | More milestones, more to chase |
+| D72 | 2026-10-09 | Year history view **keeps the yearly total** and must be laid out for a **phone screen** | It lives on my iPhone |

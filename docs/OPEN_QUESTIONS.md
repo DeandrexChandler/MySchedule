@@ -4,7 +4,7 @@ Answer these in my own words, before each segment starts. When one is answered, 
 
 ## Segment 0: Scope and setup
 
-*Answered 2026-10-06/09. See DECISIONS D8 through D68.*
+*Answered 2026-10-06/09. See DECISIONS D8 through D72.*
 
 1. Anything in the docs that's wrong, missing, or not how I'd say it?
 
@@ -14,13 +14,12 @@ Answer these in my own words, before each segment starts. When one is answered, 
 
 ## Segment 2: Inbox and tasks
 
-1. **Overdue strikes vs. real deadlines:** should auto-delete apply to *everything* actionable, including assignments with a real deadline? (Deleting "Assignment 2" doesn't make it stop being due.) Or are some items exempt?
-2. Does moving an item **before** it's overdue count as a strike, or only actually going overdue?
-3. When I tap the middle button, what's the very first thing I want to see?
-4. What kinds of things do I throw in the inbox: tasks, reminders, ideas, notes?
-5. How does an inbox item become "real"? Do I schedule it, give it a due date, or something else?
-6. What's the difference between a to-do and a reminder for me, if any?
-7. What should a reminder notification let me do right from the lock screen?
+1. **Deadline conflict:** D44/D53 say assignments have a *real* deadline with warnings 2h and 1h before. D69 says the due date lives in the *notes*. Notes can't trigger warnings. Is the due date a real date field (with warnings), or just text in the notes? And does an assignment go overdue when its scheduled time ends, or at the due date?
+2. When I tap the middle button, what's the very first thing I want to see?
+3. What kinds of things do I throw in the inbox: tasks, reminders, ideas, notes?
+4. How does an inbox item become "real"? Do I schedule it, give it a due date, or something else?
+5. What's the difference between a to-do and a reminder for me, if any?
+6. What should a reminder notification let me do right from the lock screen?
 
 ## Segment 3: Planning loop
 
@@ -38,7 +37,7 @@ Answer these in my own words, before each segment starts. When one is answered, 
 4. When does my week start?
 5. Should completing a calendar block (e.g. "BJJ") check off the tracker automatically?
 6. Do rest days break a streak?
-7. **Fire milestones (D68):** which streak lengths should change the flame's color (e.g. 7 / 30 / 100 / 365 days; 4 / 12 / 26 / 52 weeks)? What should the top tier look like?
+7. **Weekly flame milestones:** daily ones are set (D71). What week counts should match them? (Mood board assumes 1 / 4 / 8 / 12 / 20 / 30 / 52 weeks.)
 
 ## Segment 5: Smart defaults
 

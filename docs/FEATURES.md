@@ -64,7 +64,7 @@ Every feature I've described so far. **Seg** is the segment it's planned for (se
 | **Weekly counts**: a filling bar with "3/5", gym, BJJ, protein shake, Bible reading | 4 | ✅ | Weekly targets? |
 | **Full history forever**: every check-in kept | 4 | ✅ | D58 |
 | **Year view per habit**: ✕ on days done, years in a vertical scroll | 4 | ✅ | D64 |
-| **Animated fire streaks** that grow and change color at milestones (orange → red-orange → green → blue → purple → black & white → gold), with a flame-shaped glowing aura at 200 and 365, plus lightning at 365 | 4 | ✅ | D59, D68, D71 |
+| **Animated fire streaks** that grow and change color at milestones (orange → red-orange → green → blue → purple → black & white → gold), with a flame-shaped glowing aura at 200 and 365 | 4 | ✅ | D59, D68, D71 |
 | Auto-logging from completed calendar blocks | 4 | ✅ | e.g. a finished "Gym" block counts as a gym day |
 
 ## Smart defaults (no AI)

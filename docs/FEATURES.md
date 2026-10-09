@@ -36,7 +36,9 @@ Every feature I've described so far. **Seg** is the segment it's planned for (se
 | Feature | Seg | Offline | Notes |
 |---|---|---|---|
 | Quick-capture **inbox** button in the bottom-middle; the bar **expands into a 1/3–1/2 screen panel**, title first | 2 | ✅ | D78 |
-| **Ideas**: undated inbox items | 2 | ✅ | D79 |
+| **Undated = inbox**: undated tasks are to-dos; undated ideas become free-time suggestions | 2 | ✅ | D79, D82 |
+| Quick-add panel: all fields, scrolls, pinned Add, solid background | 2 | ✅ | D81 |
+| Notification actions: tap to open; swipe to clear, mark complete, mute 1h | 2 | ✅ | D83 |
 | To-dos (with or without a date or time) | 2 | ✅ | |
 | Reminders with notifications | 2 | ✅ | Local notifications need no internet |
 | **Informational vs. actionable** items (classes just show; to-dos can be missed) | 1–2 | ✅ | D27 |
@@ -64,7 +66,7 @@ Every feature I've described so far. **Seg** is the segment it's planned for (se
 | **Weekly counts**: a filling bar with "3/5", gym, BJJ, protein shake, Bible reading | 4 | ✅ | Weekly targets? |
 | **Full history forever**: every check-in kept | 4 | ✅ | D58 |
 | **Year view per habit**: ✕ on days done, years in a vertical scroll | 4 | ✅ | D64 |
-| **Animated fire streaks** that grow and change color at milestones (orange → red-orange → green → blue → purple → black & white → gold), with a flame-shaped glowing aura at 200 and 365 | 4 | ✅ | D59, D68, D71 |
+| **Animated fire streaks** that grow and change color at milestones (none until 7 days / 1 week, then orange → red-orange → blue → purple → black & white → gold), with a flame-shaped glowing aura at 200 and 365 | 4 | ✅ | D59, D68, D71 |
 | Auto-logging from completed calendar blocks | 4 | ✅ | e.g. a finished "Gym" block counts as a gym day |
 
 ## Smart defaults (no AI)
@@ -97,7 +99,7 @@ Every feature I've described so far. **Seg** is the segment it's planned for (se
 |---|---|---|---|
 | Quote of the day button | 8 | ✅ | Bundled quotes, no fetch needed |
 | Subscription tracker (cost, renewal date, reminder) | 8 | ✅ | |
-| Gym log notes: **weights and reps per session, tracked over time** | 8 | ✅ | Main use of notes (D79); structure is open |
+| **Gym log tab**: free-form notes at first, progress views later | 8 | ✅ | D79, D84. No BJJ notes |
 
 ## Ideas parked for later
 

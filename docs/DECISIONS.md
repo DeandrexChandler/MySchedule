@@ -74,12 +74,17 @@ A running log. Newest at the bottom. Each entry: what was decided, why, and when
 | D68 | 2026-10-09 | Streak flames are **animated**, **grow** as the streak grows, and **change color at milestones** (e.g. orange → blue → purple → something special) | Icons and animation are what motivate me |
 | D69 | 2026-10-09 | Overdue strikes apply to **everything actionable, assignments included**. An assignment is scheduled at the time I plan to do it, with the due date in its **notes**. Three strikes and it's gone | I deserve that consequence; it discourages skipping |
 | D70 | 2026-10-09 | Only **actually going overdue** is a strike. **Moving an item beforehand is free** | Moving early is just re-planning a realistic day |
-| D71 | 2026-10-09 | Flame milestones (days): **1 orange · 7 red-orange · 30 green · 50 blue · 100 purple · 200 black & white · 365 gold**. 200 and 365 get a **power-up aura** (Super Saiyan-style charge) | More milestones, more to chase |
+| D71 | 2026-10-09 | ~~Flame milestones v1~~ **Replaced by D80** | More milestones, more to chase |
 | D72 | 2026-10-09 | Year history view **keeps the yearly total** and must be laid out for a **phone screen** | It lives on my iPhone |
 | D73 | 2026-10-09 | Assignments keep a **real due date** (so the 2h/1h warnings work, D53). Strikes count against the **scheduled work time**, never the due date. On the 3rd strike the assignment **and its due date** are deleted | The due date is fixed; my planning is what slips |
 | D74 | 2026-10-09 | An assignment is **overdue when its scheduled work time ends** and it isn't marked complete (refines D52) | Matches how blocks work |
 | D75 | 2026-10-09 | Big projects get **multiple scheduled sessions** of the same item, entered by me | Keeps the model simple |
-| D76 | 2026-10-09 | Weekly flame milestones: **1 · 4 · 10 · 20 · 30 · 40 · 52 weeks**. The top tier is labeled **"(1 year)"** for both daily (365) and weekly (52) | Matches the daily color order |
+| D76 | 2026-10-09 | ~~Weekly milestones v1~~ **Replaced by D80** | Matches the daily color order |
 | D77 | 2026-10-09 | The 200/365 power-up is a **flame-shaped glowing aura** that pulses around the flame. No lightning (Super Saiyan spikes and lightning were tried and dropped) | Simple and clean |
 | D78 | 2026-10-09 | Tapping the middle button **expands the bottom bar into a panel covering about 1/3 to 1/2 of the screen**: title first, everything else optional | Fast capture without leaving the screen |
 | D79 | 2026-10-09 | The inbox holds **reminders, tasks, and ideas** (ideas sit **undated**). **Notes are mainly gym logs**: weights and reps per session, tracked over time | That's what I actually capture |
+| D80 | 2026-10-09 | **No streak for the first 6 days / first week.** Flames: **7 days / 1 week orange · 30 days / 5 weeks red-orange · 50 / 20 blue · 100 / 30 purple · 200 / 40 black & white · 365 / 52 gold "(1 year)"**. Green removed. Aura at 200 and 365 | A streak should mean something before it shows |
+| D81 | 2026-10-09 | Quick-add panel shows **all fields**, **scrolls** if they don't fit, the **Add button stays pinned** on screen over hidden fields, and the panel is **solid** (not see-through) | Everything in one place, nothing lost below |
+| D82 | 2026-10-09 | **Dated = scheduled. Undated = inbox.** Undated tasks sit as to-dos; undated ideas become **suggestions** for free time | No date means I don't want to decide when yet |
+| D83 | 2026-10-09 | Notifications: **tap to open the app**; **swipe for clear or options** (mark complete, mute 1 hour, etc.) | Handle it without opening the app |
+| D84 | 2026-10-09 | **Gym log gets its own tab** in the bottom bar. Starts as **free-form notes**; progress views come later. **No BJJ notes** | Notes are mainly for lifting |

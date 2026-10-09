@@ -4,7 +4,7 @@ Answer these in my own words, before each segment starts. When one is answered, 
 
 ## Segment 0: Scope and setup
 
-*Answered 2026-10-06/09. See DECISIONS D8 through D79.*
+*Answered 2026-10-06/09. See DECISIONS D8 through D84.*
 
 1. Anything in the docs that's wrong, missing, or not how I'd say it?
 
@@ -14,11 +14,9 @@ Answer these in my own words, before each segment starts. When one is answered, 
 
 ## Segment 2: Inbox and tasks
 
-*Mostly answered 2026-10-09 (D73 through D79).*
+*Answered 2026-10-09 (D73 through D84).*
 
-1. In the capture panel, which optional fields do I want to see right away under the title, and which can hide behind a "more" tap?
-2. How do I want to turn a dated vs. undated item (task vs. idea) into one or the other: a toggle, or just whether I set a date?
-3. What should a reminder notification let me do right from the lock screen?
+1. **Bottom bar:** with the gym log getting its own tab, what's the full lineup, left to right? (So far: inbox/add in the middle, calendar likely on the right, gym log somewhere.)
 
 ## Segment 3: Planning loop
 
@@ -61,7 +59,7 @@ Answer these in my own words, before each segment starts. When one is answered, 
 
 1. **Quotes:** What kind (motivational, Bible verses, stoic, mixed)? A button only, or also a daily notification or widget?
 2. **Subscriptions:** What do I want to know: monthly total, upcoming renewals, reminders before trial ends?
-3. **Gym log (D79):** I want weights and reps per session tracked over time. Should it be typed freely like a note and the app reads the numbers, or a structured form (exercise, sets, reps, weight)? BJJ notes too? Should it be moved earlier than Segment 8?
+3. **Gym log (D84):** what progress views do I want once the free-form notes are in use?
 
 ## Big picture
 

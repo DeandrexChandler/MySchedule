@@ -4,7 +4,7 @@ Answer these in my own words, before each segment starts. When one is answered, 
 
 ## Segment 0: Scope and setup
 
-*Answered 2026-10-06/09. See DECISIONS D8 through D72.*
+*Answered 2026-10-06/09. See DECISIONS D8 through D79.*
 
 1. Anything in the docs that's wrong, missing, or not how I'd say it?
 
@@ -14,12 +14,11 @@ Answer these in my own words, before each segment starts. When one is answered, 
 
 ## Segment 2: Inbox and tasks
 
-1. **Deadline conflict:** D44/D53 say assignments have a *real* deadline with warnings 2h and 1h before. D69 says the due date lives in the *notes*. Notes can't trigger warnings. Is the due date a real date field (with warnings), or just text in the notes? And does an assignment go overdue when its scheduled time ends, or at the due date?
-2. When I tap the middle button, what's the very first thing I want to see?
-3. What kinds of things do I throw in the inbox: tasks, reminders, ideas, notes?
-4. How does an inbox item become "real"? Do I schedule it, give it a due date, or something else?
-5. What's the difference between a to-do and a reminder for me, if any?
-6. What should a reminder notification let me do right from the lock screen?
+*Mostly answered 2026-10-09 (D73 through D79).*
+
+1. In the capture panel, which optional fields do I want to see right away under the title, and which can hide behind a "more" tap?
+2. How do I want to turn a dated vs. undated item (task vs. idea) into one or the other: a toggle, or just whether I set a date?
+3. What should a reminder notification let me do right from the lock screen?
 
 ## Segment 3: Planning loop
 
@@ -37,7 +36,6 @@ Answer these in my own words, before each segment starts. When one is answered, 
 4. When does my week start?
 5. Should completing a calendar block (e.g. "BJJ") check off the tracker automatically?
 6. Do rest days break a streak?
-7. **Weekly flame milestones:** daily ones are set (D71). What week counts should match them? (Mood board assumes 1 / 4 / 8 / 12 / 20 / 30 / 52 weeks.)
 
 ## Segment 5: Smart defaults
 
@@ -63,7 +61,7 @@ Answer these in my own words, before each segment starts. When one is answered, 
 
 1. **Quotes:** What kind (motivational, Bible verses, stoic, mixed)? A button only, or also a daily notification or widget?
 2. **Subscriptions:** What do I want to know: monthly total, upcoming renewals, reminders before trial ends?
-3. **Gym log:** Free-form notes, or structured (exercise, sets, reps, weight)? BJJ notes too?
+3. **Gym log (D79):** I want weights and reps per session tracked over time. Should it be typed freely like a note and the app reads the numbers, or a structured form (exercise, sets, reps, weight)? BJJ notes too? Should it be moved earlier than Segment 8?
 
 ## Big picture
 

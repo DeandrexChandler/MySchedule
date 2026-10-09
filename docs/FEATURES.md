@@ -35,7 +35,8 @@ Every feature I've described so far. **Seg** is the segment it's planned for (se
 
 | Feature | Seg | Offline | Notes |
 |---|---|---|---|
-| Quick-capture **inbox** button in the bottom-middle | 2 | ✅ | |
+| Quick-capture **inbox** button in the bottom-middle; the bar **expands into a 1/3–1/2 screen panel**, title first | 2 | ✅ | D78 |
+| **Ideas**: undated inbox items | 2 | ✅ | D79 |
 | To-dos (with or without a date or time) | 2 | ✅ | |
 | Reminders with notifications | 2 | ✅ | Local notifications need no internet |
 | **Informational vs. actionable** items (classes just show; to-dos can be missed) | 1–2 | ✅ | D27 |
@@ -96,7 +97,7 @@ Every feature I've described so far. **Seg** is the segment it's planned for (se
 |---|---|---|---|
 | Quote of the day button | 8 | ✅ | Bundled quotes, no fetch needed |
 | Subscription tracker (cost, renewal date, reminder) | 8 | ✅ | |
-| Gym log notes | 8 | ✅ | Free text, or structured sets and reps? |
+| Gym log notes: **weights and reps per session, tracked over time** | 8 | ✅ | Main use of notes (D79); structure is open |
 
 ## Ideas parked for later
 

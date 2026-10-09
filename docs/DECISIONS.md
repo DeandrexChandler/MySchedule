@@ -76,3 +76,10 @@ A running log. Newest at the bottom. Each entry: what was decided, why, and when
 | D70 | 2026-10-09 | Only **actually going overdue** is a strike. **Moving an item beforehand is free** | Moving early is just re-planning a realistic day |
 | D71 | 2026-10-09 | Flame milestones (days): **1 orange · 7 red-orange · 30 green · 50 blue · 100 purple · 200 black & white · 365 gold**. 200 and 365 get a **power-up aura** (Super Saiyan-style charge) | More milestones, more to chase |
 | D72 | 2026-10-09 | Year history view **keeps the yearly total** and must be laid out for a **phone screen** | It lives on my iPhone |
+| D73 | 2026-10-09 | Assignments keep a **real due date** (so the 2h/1h warnings work, D53). Strikes count against the **scheduled work time**, never the due date. On the 3rd strike the assignment **and its due date** are deleted | The due date is fixed; my planning is what slips |
+| D74 | 2026-10-09 | An assignment is **overdue when its scheduled work time ends** and it isn't marked complete (refines D52) | Matches how blocks work |
+| D75 | 2026-10-09 | Big projects get **multiple scheduled sessions** of the same item, entered by me | Keeps the model simple |
+| D76 | 2026-10-09 | Weekly flame milestones: **1 · 4 · 10 · 20 · 30 · 40 · 52 weeks**. The top tier is labeled **"(1 year)"** for both daily (365) and weekly (52) | Matches the daily color order |
+| D77 | 2026-10-09 | The 200/365 power-up should look like a real **Super Saiyan aura**: a spiky, fast-flickering aura rising around the flame, with lightning at the top tier | It should feel earned |
+| D78 | 2026-10-09 | Tapping the middle button **expands the bottom bar into a panel covering about 1/3 to 1/2 of the screen**: title first, everything else optional | Fast capture without leaving the screen |
+| D79 | 2026-10-09 | The inbox holds **reminders, tasks, and ideas** (ideas sit **undated**). **Notes are mainly gym logs**: weights and reps per session, tracked over time | That's what I actually capture |

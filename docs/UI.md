@@ -54,6 +54,8 @@ Blocks use colors I pick, drawn **slightly heavier (more opaque) than the backgr
 
 When the current-time line passes through a block, that block gets a clear **"now"** indicator (D56).
 
+Items carry their overdue strike as a label: **"Previously overdue"** (1st) or **"Will be deleted"** (2nd). On the 3rd strike the item is gone at the end of the day (D66, D67).
+
 All views open on **today**. 1-day, 3-day and week swipe **left/right**; month scrolls **up/down** (D48).
 
 ### More backgrounds (later, D25)

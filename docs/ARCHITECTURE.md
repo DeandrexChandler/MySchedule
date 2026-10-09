@@ -63,7 +63,7 @@ Other building blocks: actionable notifications ("Done" / "Move" / "Snooze"), ti
 
 ## Importing from Apple Calendar (D55)
 
-EventKit reads Apple Calendar on the device (offline) after a one-time calendar permission prompt. Flow: pick which calendars and events → **review screen** (rename, set category and color, confirm semester end) → saved as MySchedule recurring series. Recurrence rules come across from Apple Calendar. **Ongoing sync (D60):** re-read on launch and whenever iOS reports Apple Calendar changed, matching events by their calendar identifier so edits update instead of duplicating. The same access can later read the **Birthdays** calendar (D41).
+EventKit reads Apple Calendar on the device (offline) after a one-time calendar permission prompt. Flow: pick which calendars and events → **review screen** (rename, set category and color, confirm semester end) → saved as MySchedule recurring series. Recurrence rules come across from Apple Calendar. **Ongoing, read-only sync (D60, D65):** re-read on launch and whenever iOS reports Apple Calendar changed, matching events by their calendar identifier so edits update instead of duplicating. The same access can later read the **Birthdays** calendar (D41).
 
 ## Importing .ics (D37)
 
@@ -73,7 +73,7 @@ iOS has no built-in .ics parser that hands back events without adding them to Ap
 
 | Model | Purpose |
 |---|---|
-| `Item` | Anything on the schedule or in the inbox. **Missed** when (D52): deadline passes; else start time passes; for an actionable block, when it ends incomplete. Has a **kind**: `block` (start + end), `assignment` (planned start time + real **deadline**, done when finished, D44, D45), `task` (no time), `reminder`. Optional **custom reminders** list. Belongs to a **category** (default color, D47). Has a **role**: `informational` or `actionable` (default per kind, overridable, D34). Optional **color** and **alarm** flag |
+| `Item` | Anything on the schedule or in the inbox. **Missed** when (D52): deadline passes; else start time passes; for an actionable block, when it ends incomplete. Keeps an **overdue count**: 1 → "Previously overdue", 2 → "Will be deleted", 3 → hard-deleted at end of that day unless completed (D66, D67). Has a **kind**: `block` (start + end), `assignment` (planned start time + real **deadline**, done when finished, D44, D45), `task` (no time), `reminder`. Optional **custom reminders** list. Belongs to a **category** (default color, D47). Has a **role**: `informational` or `actionable` (default per kind, overridable, D34). Optional **color** and **alarm** flag |
 | `Recurrence` | Repeat rules (e.g. Mon/Wed/Fri 9:00–9:50) with an **end date**. Past occurrences are kept (D38) |
 | `Tracker` | Something I track: type (`streak`, `daysSince`, `weeklyCount`), optional weekly target |
 | `TrackerEntry` | One check-in for a tracker, on a date. Weekly totals and history are computed from entries, so nothing is ever reset (D51) |

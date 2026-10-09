@@ -67,3 +67,8 @@ A running log. Newest at the bottom. Each entry: what was decided, why, and when
 | D61 | 2026-10-09 | Actionable by default: errands and to-dos I schedule (wash car, get gas, groceries, fix resume, apply to internships…) | The stuff I schedule and then don't commit to |
 | D62 | 2026-10-09 | Moving an item's date is **marked as edited**, and **every move adds more friction** to moving it again | Makes putting things off progressively harder |
 | D63 | 2026-10-09 | Rain falls **closer to straight down** (only a slight angle). **Cloudy and rainy skies are grey**: no sunrise/sunset orange or pink on those days | It should look like real overcast weather |
+| D64 | 2026-10-09 | Habit history = a **year calendar** per habit: an **✕ on days I did it**, blank otherwise, years stacked in a **vertical scroll** | See consistency across years at a glance |
+| D65 | 2026-10-09 | Apple Calendar sync is **read-only**. Nothing in MySchedule ever writes to Apple Calendar | Keep the two separate |
+| D66 | 2026-10-09 | **Overdue strikes:** 1st time overdue → item shows **"Previously overdue"**. 2nd time → shows **"Will be deleted"**. 3rd time → it **deletes itself permanently** (no Recently Deleted, no history) | If I've let it slide three times, I didn't really care about it |
+| D67 | 2026-10-09 | **Grace period:** an item on its final strike isn't deleted until the **end of the day** it went overdue, so I can still mark it complete | Wiggle room |
+| D68 | 2026-10-09 | Streak flames are **animated**, **grow** as the streak grows, and **change color at milestones** (e.g. orange → blue → purple → something special) | Icons and animation are what motivate me |

@@ -19,14 +19,14 @@ Every feature I've described so far. **Seg** is the segment it's planned for (se
 |---|---|---|---|
 | Time **blocks** (classes, gym, BJJ, anything with start + end) | 1 | ✅ | |
 | **Weekly recurring** blocks with an **end date** (classes until semester ends) | 1 | ✅ | Enter once, never per day (D37, D38) |
-| **Import from Apple Calendar** with review, then **keep pulling changes** | 1 | ✅ | D55, D60 |
+| **Import from Apple Calendar** with review, then **keep pulling changes** (read-only) | 1 | ✅ | D55, D60, D65 |
 | **Fast manual entry** of weekly classes (enter once), modeled on Apple Calendar's new-event screen | 1 | ✅ | D43, D55 |
 | Import classes from .ics, with a review/confirm screen | 1 | ✅ | Secondary path (D37, D43) |
 | **Past schedules stay viewable** after a series ends | 1 | ✅ | D38 |
 | **Assignments**: placed at the time I plan to start, with a **real deadline**; done when finished | 1 | ✅ | Replaces due-date lines (D39, D44, D45) |
 | Deadline warnings **2h and 1h before** if not done, plus **custom reminders per item** | 2 | ✅ | D44, D53 |
 | **"Now" indicator** on the block the current-time line is in | 1 | ✅ | D56 |
-| **Edited marker + growing friction** when moving an item's date | 2 | ✅ | D62 |
+| **Overdue strikes**: "Previously overdue" → "Will be deleted" → permanently deleted at end of day on the 3rd | 2 | ✅ | D62, D66, D67 |
 | **Views**: 1-day (main), 3-day, week, month; all open on today; swipe left/right (month scrolls vertically); more compressed at each level | 1 | ✅ | D40, D48 |
 | Month view: dates + thin colored bars, no words | 1 | ✅ | D49 |
 | **Colors per category**, overridable on anything; a bit heavier than the background | 1 | ✅ | D42, D47 |
@@ -61,8 +61,9 @@ Every feature I've described so far. **Seg** is the segment it's planned for (se
 | **Days since** I last did X | 4 | ✅ | |
 | **Streaks**: days in a row, a big number that grows | 4 | ✅ | |
 | **Weekly counts**: a filling bar with "3/5", gym, BJJ, protein shake, Bible reading | 4 | ✅ | Weekly targets? |
-| **Full history forever**: every check-in kept; look back across years | 4 | ✅ | D58. How to browse it is open |
-| **Fire streaks**: numbers glow hotter and more colorful as they grow | 4 | ✅ | D59 |
+| **Full history forever**: every check-in kept | 4 | ✅ | D58 |
+| **Year view per habit**: ✕ on days done, years in a vertical scroll | 4 | ✅ | D64 |
+| **Animated fire streaks** that grow and change color at milestones | 4 | ✅ | D59, D68 |
 | Auto-logging from completed calendar blocks | 4 | ✅ | e.g. a finished "Gym" block counts as a gym day |
 
 ## Smart defaults (no AI)

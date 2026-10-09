@@ -63,7 +63,7 @@ Other building blocks: actionable notifications ("Done" / "Move" / "Snooze"), ti
 
 ## Importing from Apple Calendar (D55)
 
-EventKit reads Apple Calendar on the device (offline) after a one-time calendar permission prompt. Flow: pick which calendars and events → **review screen** (rename, set category and color, confirm semester end) → saved as MySchedule recurring series. Recurrence rules come across from Apple Calendar. The same access can later read the **Birthdays** calendar (D41).
+EventKit reads Apple Calendar on the device (offline) after a one-time calendar permission prompt. Flow: pick which calendars and events → **review screen** (rename, set category and color, confirm semester end) → saved as MySchedule recurring series. Recurrence rules come across from Apple Calendar. **Ongoing sync (D60):** re-read on launch and whenever iOS reports Apple Calendar changed, matching events by their calendar identifier so edits update instead of duplicating. The same access can later read the **Birthdays** calendar (D41).
 
 ## Importing .ics (D37)
 

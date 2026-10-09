@@ -35,6 +35,7 @@ Sky colors by time and weather:
 Notes:
 - The sky **reflects the real day** (midday = soft daylight blue). Green belongs to the **ground**, which **dims at night** along with the sky.
 - Offline: last known weather, then plain time-of-day colors.
+- Cloudy and rainy days turn the sky **grey**, with no sunrise/sunset orange or pink. Rain falls nearly straight down (D63).
 - Weather must be **obvious but blurred**: soft grey clouds drift in the sky when it's cloudy, and rain animates when it's raining (D57). Respect Reduce Motion, and keep it light enough for the iPhone 11.
 - Colors **blend gradually** between phases. No sudden jumps.
 - Text and cards need to stay readable on every sky, from pale sunrise to navy night.

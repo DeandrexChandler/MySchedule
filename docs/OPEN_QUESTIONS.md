@@ -4,16 +4,17 @@ Answer these in my own words, before each segment starts. When one is answered, 
 
 ## Segment 0: Scope and setup
 
-*Answered 2026-10-06/09. See DECISIONS D8 through D57.*
+*Answered 2026-10-06/09. See DECISIONS D8 through D63.*
 
 1. Anything in the docs that's wrong, missing, or not how I'd say it?
 
 ## Segment 1: Calendar
 
-*Mostly answered 2026-10-07/09 (D37 through D57).*
+*Mostly answered 2026-10-07/09 (D37 through D63).*
 
-1. For the Apple Calendar import: is it a one-time move (then Apple Calendar is retired), or should the app keep checking Apple Calendar for changes until I fully switch?
-2. Which blocks are **actionable** by default (missed if not marked complete), besides tasks and assignments? Is gym actionable? BJJ? Work shifts?
+1. Apple Calendar sync: should it only **read** from Apple Calendar, or should changes I make in MySchedule also **write back** to Apple Calendar?
+2. **Edit friction (D62):** what should "harder to move" actually feel like as the count goes up? Picture moving something for the 1st, 3rd and 5th time.
+3. Should the edited marker be visible on the item in the schedule (e.g. "moved 3×"), or only show up when I try to move it again?
 
 ## Segment 2: Inbox and tasks
 
@@ -39,7 +40,7 @@ Answer these in my own words, before each segment starts. When one is answered, 
 4. When does my week start?
 5. Should completing a calendar block (e.g. "BJJ") check off the tracker automatically?
 6. Do rest days break a streak?
-7. Does the tracker proposal in the mood board (filling bar + past-weeks strip + weeks-in-a-row) work for me? What would I change?
+7. **History (D58):** how do I want to look back at years of gym/BJJ? Idea on the table: tapping a tracker opens the regular calendar **filtered to just that habit** (same data, no duplicate calendar), with a year view to compare years. Does that fit, or do I picture something else?
 
 ## Segment 5: Smart defaults
 

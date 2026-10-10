@@ -90,3 +90,5 @@ A running log. Newest at the bottom. Each entry: what was decided, why, and when
 | D84 | 2026-10-09 | **Gym log gets its own tab** in the bottom bar. Starts as **free-form notes**; progress views come later. **No BJJ notes** | Notes are mainly for lifting |
 | D85 | 2026-10-09 | **Bottom bar, left to right:** Schedule/Calendar · Notes/Gym log · **Add** (center) · Streaks/Trackers · Settings | Everything I use daily, one tap away |
 | D86 | 2026-10-09 | **Schedule screen header:** **Inbox** (undated items) button top-left, the date in the middle, **Search** and the **view switcher** top-right (view switcher right of search) | Inbox and views without a tab of their own |
+| D87 | 2026-10-10 | **Apple's system font** throughout, same as Reminders | Native feel |
+| D88 | 2026-10-10 | Sky colors from the mood board sketch are approved. **Sunset peaks around 6–7 PM** in the sketch; the real app follows the actual sunset time for my city (D21) | Matches what I see outside |

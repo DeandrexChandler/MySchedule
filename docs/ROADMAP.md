@@ -24,16 +24,18 @@ The order isn't final. Moving segments around is fine.
 
 - [x] Vision, features, roadmap, architecture, UI, tooling docs
 - [x] Open questions written down
-- [ ] Answer the Segment 0 questions (most answered 2026-10-06)
-- [ ] Install Ponytail plugin
-- [ ] `CLAUDE.md` and Claude Code settings (token optimization)
-- [ ] `.gitignore` for Xcode (user data and DerivedData are currently tracked)
+- [x] Answer the Segment 0 questions (D1–D88)
+- [x] Install Ponytail plugin
+- [x] `CLAUDE.md`, `scripts/build.sh`, `scripts/run.sh`, `.claude/settings.json` permissions
+- [x] `.gitignore` for Xcode; stopped tracking `xcuserdata`
+- [x] Xcode target set to iPhone only
 - [x] Device setup: paid Apple Developer Program, iPhone 11 as main device
 - [ ] Enroll in Apple Developer Program, run app on the iPhone 11
-- [ ] Mood board from Dribbble / Mobbin, then pick the "pop"
+- [x] Mood board from Dribbble / Mobbin (https://claude.ai/artifact/7BMykHxZXEM4cpZmp5Urq8)
 - [ ] Folder structure and data model skeleton
-- [ ] Design basics: colors, fonts, spacing, app icon direction
-- [ ] Settings screen with dark (default) / light mode
+- [ ] Design basics: sky colors and system font decided (D87, D88); spacing and app icon still open
+- [ ] Sky-scene background (ground + time-of-day sky gradient)
+- [ ] Settings screen (city, preferences)
 
 ## Branching
 

@@ -6,7 +6,7 @@ How this project is built with Claude Code while keeping token use (and cost / u
 
 Every message carries the whole conversation plus whatever Claude reads: files, build logs, docs. Long sessions, huge build output and reading files that aren't needed all burn tokens and make answers worse. Most of this setup is about **putting less, but better, stuff in context**.
 
-## Planned setup (Segment 0, waiting on my OK)
+## Setup (done 2026-10-06 on `chore/foundation`)
 
 ### 1. `CLAUDE.md` (project memory)
 A short file at the repo root that Claude loads at the start of every session:

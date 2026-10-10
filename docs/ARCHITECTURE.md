@@ -50,16 +50,33 @@ The background is one view: a sky gradient on top blending into green ground at 
 
 Decided (D22, D23): missed items pin to the top of the schedule screen as a growing stack until completed or rescheduled, and re-notify at least every 24h. In SwiftUI the stack is an overlay pinned above the scrolling timeline. Repeating notifications count against the 64-pending limit, so many missed items may need to share one notification.
 
+**Escalating reminders (D29)** work with plain local notifications:
+1. When something becomes missed, schedule a **series of one-time notifications** that gets denser over time: 1 a day, then 2 a day, then **3 a day max** (D33).
+2. **No notifications overnight** (D32). The series skips quiet hours and picks back up in the morning.
+3. At 3 a day, the series continues as **daily repeating** notifications at three fixed times, so it never stops even if I never open the app.
+4. Every time the app opens or an item changes, **cancel and rebuild** the schedule. One combined "N things missed" series covers all missed items, which keeps it far under the 64 limit.
+5. Completing or moving the last missed item cancels everything.
+6. **Ping timing (D35, D36):** quiet hours are 1–7 AM. Pings go into free gaps longer than the missed item's duration (over 1 hour if it has none). If there are fewer than 3 such gaps, the gaps that exist are used and the rest are filled with whichever of 11 AM / 5 PM / 10 PM are furthest from them (D46). Since the schedule is known ahead of time, the gaps get computed when the series is rebuilt. Any schedule edit triggers a rebuild.
+7. Items **I've set an alarm on** (D31) also get an **AlarmKit** alarm, which rings through silent mode and Focus (D30). It needs a one-time permission prompt.
+
 Other building blocks: actionable notifications ("Done" / "Move" / "Snooze"), time-sensitive interruption level (needs the Time Sensitive Notifications capability), optionally **AlarmKit** (iOS 26) for the hardest cases, Live Activities for countdowns, and an in-app triage screen for overdue items. All of these are local and work offline. The escalation steps themselves are an open question.
+
+## Importing from Apple Calendar (D55)
+
+EventKit reads Apple Calendar on the device (offline) after a one-time calendar permission prompt. Flow: pick which calendars and events → **review screen** (rename, set category and color, confirm semester end) → saved as MySchedule recurring series. Recurrence rules come across from Apple Calendar. **Ongoing, read-only sync (D60, D65):** re-read on launch and whenever iOS reports Apple Calendar changed, matching events by their calendar identifier so edits update instead of duplicating. The same access can later read the **Birthdays** calendar (D41).
+
+## Importing .ics (D37)
+
+iOS has no built-in .ics parser that hands back events without adding them to Apple Calendar. A small parser for what class schedules use (`VEVENT`, `DTSTART`/`DTEND`, `RRULE` weekly with `UNTIL`, `SUMMARY`, `LOCATION`) is enough. Flow: pick file (Files app / share sheet) → parse → **review screen** (edit, uncheck, set colors and semester end) → confirm → saved as recurring series. Works offline. The same parser could later handle subscribed calendar links (e.g. a work schedule), which need internet only to refresh.
 
 ## Data model (first sketch, will change)
 
 | Model | Purpose |
 |---|---|
-| `Item` | Anything on the schedule or in the inbox. Has a **kind**: `block` (start + end), `deadline` (a line at a moment), `startBy` (a soft line), `task` (no time), `reminder` |
-| `Recurrence` | Repeat rules (e.g. Mon/Wed/Fri 9:00–9:50 until Dec 12) |
+| `Item` | Anything on the schedule or in the inbox. **Missed** when (D52): deadline passes; else start time passes; for an actionable block, when it ends incomplete. Keeps an **overdue count**: 1 → "Previously overdue", 2 → "Will be deleted", 3 → hard-deleted at end of that day unless completed (D66, D67). Assignments: **due date is a real field** (warnings at 2h/1h); strikes count against the scheduled work time, and a 3rd strike deletes the assignment and its due date (D73, D74). Has a **kind**: `block` (start + end), `assignment` (planned start time + real **deadline**, done when finished, D44, D45), `task` (no time), `reminder`. Optional **custom reminders** list. Belongs to a **category** (default color, D47). Has a **role**: `informational` or `actionable` (default per kind, overridable, D34). Optional **color** and **alarm** flag |
+| `Recurrence` | Repeat rules (e.g. Mon/Wed/Fri 9:00–9:50) with an **end date**. Past occurrences are kept (D38) |
 | `Tracker` | Something I track: type (`streak`, `daysSince`, `weeklyCount`), optional weekly target |
-| `TrackerEntry` | One check-in for a tracker, on a date |
+| `TrackerEntry` | One check-in for a tracker, on a date. Weekly totals and history are computed from entries, so nothing is ever reset (D51) |
 | `DayPlan` | Whether a given day was "planned", and when |
 | `ActivityStats` | Learned duration and time-of-day patterns per activity name |
 | Later: `Subscription`, `GymLogEntry`, `Quote` | |

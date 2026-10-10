@@ -4,34 +4,17 @@ Answer these in my own words, before each segment starts. When one is answered, 
 
 ## Segment 0: Scope and setup
 
-*Answered 2026-10-06/07. See DECISIONS D8 through D23.*
+*Answered 2026-10-06/09. See DECISIONS D8 through D86.*
 
-1. **Weather:** live weather needs internet. When offline, is falling back to plain time-of-day colors (using the last known weather) fine?
-2. Is an alarm-style alert (rings even on silent / Focus) OK for the worst cases, or too much?
-3. Does the ground stay the same green all day, or does it dim at night too?
-4. What should the midday sky look like now that green belongs to the ground?
-5. **Missed items:** does "missed" apply to everything (tasks, reminders, deadlines, start-by lines), or only some? What about a missed calendar block, like a class I skipped?
-6. How fast should repeat notifications come for something missed: every 24h, a few times a day, faster the longer it's ignored?
-7. If the stack gets really big, should it ever take over the whole screen, or is there a point where it stops growing?
-8. Anything in the docs that's wrong, missing, or not how I'd say it?
+1. Anything in the docs that's wrong, missing, or not how I'd say it?
 
 ## Segment 1: Calendar
 
-1. How do my classes repeat (days, times), and how do I want to enter a semester: one class at a time, or something faster?
-2. What happens at the end of a semester: do classes just stop, get archived, something else?
-3. What's the difference, in my head, between a **due-date line** and a **start-by line**? How should each look?
-4. Can a line have a time but no date, or a date but no time?
-5. What views do I picture: 1-day, 2-day, 3-day, week, month? Which one do I live in?
-6. Do I want my existing Apple Calendar events to show up here, or does this replace it?
-7. How should blocks be colored: by class, by type, by something else?
+*Answered 2026-10-07/09 (D37 through D68). Remaining questions moved to Segment 2.*
 
 ## Segment 2: Inbox and tasks
 
-1. When I tap the middle button, what's the very first thing I want to see?
-2. What kinds of things do I throw in the inbox: tasks, reminders, ideas, notes?
-3. How does an inbox item become "real"? Do I schedule it, give it a due date, or something else?
-4. What's the difference between a to-do and a reminder for me, if any?
-5. What should a reminder notification let me do right from the lock screen?
+*Answered 2026-10-09 (D73 through D86).*
 
 ## Segment 3: Planning loop
 
@@ -49,7 +32,6 @@ Answer these in my own words, before each segment starts. When one is answered, 
 4. When does my week start?
 5. Should completing a calendar block (e.g. "BJJ") check off the tracker automatically?
 6. Do rest days break a streak?
-7. How do I want to see progress: numbers, grids, rings, charts?
 
 ## Segment 5: Smart defaults
 
@@ -75,7 +57,7 @@ Answer these in my own words, before each segment starts. When one is answered, 
 
 1. **Quotes:** What kind (motivational, Bible verses, stoic, mixed)? A button only, or also a daily notification or widget?
 2. **Subscriptions:** What do I want to know: monthly total, upcoming renewals, reminders before trial ends?
-3. **Gym log:** Free-form notes, or structured (exercise, sets, reps, weight)? BJJ notes too?
+3. **Gym log (D84):** what progress views do I want once the free-form notes are in use?
 
 ## Big picture
 

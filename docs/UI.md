@@ -33,10 +33,33 @@ Sky colors by time and weather:
 | Cloudy / rainy | Overcast | Grey → grey-blue |
 
 Notes:
-- Midday green from the earlier palette moved to the **ground**; the midday sky becomes soft daylight blue. *(Assumption, confirm.)*
+- The sky **reflects the real day** (midday = soft daylight blue). Green belongs to the **ground**, which **dims at night** along with the sky.
+- Offline: last known weather, then plain time-of-day colors.
+- Cloudy and rainy days turn the sky **grey**, with no sunrise/sunset orange or pink. Rain falls nearly straight down (D63).
+- Weather must be **obvious but blurred**: soft grey clouds drift in the sky when it's cloudy, and rain animates when it's raining (D57). Respect Reduce Motion, and keep it light enough for the iPhone 11.
 - Colors **blend gradually** between phases. No sudden jumps.
 - Text and cards need to stay readable on every sky, from pale sunrise to navy night.
 - Exact colors get picked during design basics in Segment 0.
+
+### Blocks on the sky (D42)
+Blocks use colors I pick, drawn **slightly heavier (more opaque) than the background** so they stand out against any sky. Later, the app can suggest colors based on how I usually color things.
+
+### Zoom levels (D40)
+| View | Shows |
+|---|---|
+| **1-day** (main) | Full detail: blocks, "start this" lines, times |
+| **3-day** | Yesterday / today / tomorrow, slightly compressed |
+| **Week** | Simplified blocks, titles shortened |
+| **Month** | Dates and **thin colored bars** only, **no words** (D49) |
+
+When the current-time line passes through a block, that block gets a clear **"now"** indicator (D56).
+
+Items carry their overdue strike as a label: **"Previously overdue"** (1st) or **"Will be deleted"** (2nd). On the 3rd strike the item is gone at the end of the day (D66, D67).
+
+All views open on **today**. 1-day, 3-day and week swipe **left/right**; month scrolls **up/down** (D48).
+
+### More backgrounds (later, D25)
+A "Backgrounds" option in Settings. First idea: **city mode**, a soft-toned, blurred skyline in front of the same time-of-day sky. Unique enough to pop, never distracting. Not part of v1.
 
 ## Deadlines that are hard to ignore (D17, D22, D23)
 
@@ -46,6 +69,11 @@ Notes:
 - The more I ignore, the more it **stacks up** and takes space from the schedule.
 - It re-notifies **at least every 24 hours**, maybe more often.
 - Only two ways out: **mark complete** or **move the date**.
+- Applies to every **actionable** item (tasks, reminders, due-date lines, start-by lines, to-do blocks). **Informational** items like classes just show on the schedule. They're never marked complete and never "missed" (D27).
+- In the stack, every item is **compressed to the same size** (D28).
+- The stack **can grow to take over the whole screen** (D28).
+- Notifications **speed up** the longer something is ignored, up to **3 a day**, and **pause overnight** (D29, D32, D33).
+- Items I **set an alarm on** ring through silent mode (D30, D31).
 
 ### Background
 
@@ -125,14 +153,21 @@ These are apps worth opening and screenshotting, with the specific idea each one
 ### Platform look
 - iOS 26 **Liquid Glass**: translucent tab bars and controls. Using the native components gets this for free.
 
-## Tab bar: open questions
+## Tab bar and header (D85, D86)
 
-- What do I want to see the moment I open the app?
-- Besides inbox (middle) and calendar (right?), what else deserves a tab: trackers, AI, the planning ritual?
-- Does the middle button open a full screen, a sheet, or something quick like a text field over the current screen?
-- Where do the extras live (quotes, subscriptions, gym log)?
+```
+Schedule screen
+┌──────────────────────────────┐
+│ [Inbox]   Tue, Oct 7   [🔍][▦] │  ← inbox left · date · search, view switcher right
+│ ...missed stack, timeline... │
+│                              │
+│ Schedule  Gym log  [+]  Streaks  Settings │
+└──────────────────────────────┘
+```
 
-Technical note: the native iOS tab bar doesn't have a built-in "big center action button". A raised center button can be built as a custom tab bar. That trades the automatic Liquid Glass styling for full control. This doesn't need deciding until Segment 1–2.
+- **Bottom bar:** Schedule/Calendar · Notes/Gym log · Add (center) · Streaks/Trackers · Settings.
+- **Inbox** (undated items) lives top-left on the schedule screen. **Search** and the **view switcher** (1-day / 3-day / week / month) are top-right.
+- Technical note: the native iOS tab bar has no raised center button, so the Add button and its expanding panel (D78) need a custom bar.
 
 ## How to collect inspiration
 
